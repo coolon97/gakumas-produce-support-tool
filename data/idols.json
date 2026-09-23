@@ -1,0 +1,6672 @@
+[
+  {
+    "id": "saki",
+    "lastName": "花海",
+    "firstName": "咲季",
+    "versions": [
+      {
+        "id": "saki-r-sense",
+        "name": "【学園生活】花海咲季",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 110,
+          "da": 115,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 16.5,
+          "da": 16.5,
+          "vi": 18.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 1,
+          "da": 1,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "saki-sr-sense",
+        "name": "【わたしが一番！】花海咲季",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 130
+        },
+        "lessonBonus": {
+          "vo": 18.5,
+          "da": 18.5,
+          "vi": 19.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 2,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "saki-ssr-sense1",
+        "name": "【Fighting My Way】花海咲季",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "saki-r-logic",
+        "name": "【初声】花海咲季",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 110,
+          "da": 115,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 18.5,
+          "da": 18.5,
+          "vi": 20.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/10",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "saki-ssr-logic1",
+        "name": "【Boom Boom Pow】花海咲季",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/06/19",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "saki-ssr-logic2",
+        "name": "【冠菊】花海咲季",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/01",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "saki-ssr-sense2",
+        "name": "【古今東西ちょちょいのちょい】花海咲季",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/28",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "saki-ssr-sense3",
+        "name": "【Campus mode!!】花海咲季",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/12/26",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "saki-ssr-logic3",
+        "name": "【雨上がりのアイリス】花海咲季",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/05/01",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "saki-ssr-anomaly1",
+        "name": "【がむしゃらに行こう！】花海咲季",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/09/29",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "saki-ssr-anomaly2",
+        "name": "【桜フォトグラフ】花海咲季",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/04/11",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "saki-ssr-logic4",
+        "name": "【Wildest Flower】花海咲季",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/03/19",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "saki-ssr-sense-4",
+        "name": "【GO MY WAY!!】花海咲季",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/06/26",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "saki-ssr-anomaly-3",
+        "name": "【ガラクタロード】花海咲季",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/07/21",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "aggressive"
+      }
+    ]
+  },
+  {
+    "id": "temari",
+    "lastName": "月村",
+    "firstName": "手毬",
+    "versions": [
+      {
+        "id": "temari-r-sense",
+        "name": "【学園生活】月村手毬",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 110,
+          "da": 90,
+          "vi": 70
+        },
+        "lessonBonus": {
+          "vo": 27,
+          "da": 22.5,
+          "vi": 9.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 1,
+          "da": 1,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "temari-sr-sense",
+        "name": "【一匹狼】月村手毬",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 95,
+          "vi": 75
+        },
+        "lessonBonus": {
+          "vo": 29,
+          "da": 24.5,
+          "vi": 10.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 3,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "temari-ssr-sense1",
+        "name": "【Luna say maybe】月村手毬",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "temari-r-logic",
+        "name": "【初声】月村手毬",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 110,
+          "da": 90,
+          "vi": 70
+        },
+        "lessonBonus": {
+          "vo": 29,
+          "da": 26.5,
+          "vi": 9.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "temari-ssr-logic1",
+        "name": "【アイヴイ】月村手毬",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/22",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "temari-ssr-logic2",
+        "name": "【仮装狂騒曲】月村手毬",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/30",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "temari-ssr-sense2",
+        "name": "【Campus mode!!】月村手毬",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/12/26",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "temari-ssr-sense3",
+        "name": "【雨上がりのアイリス】月村手毬",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "temari-ssr-anomaly1",
+        "name": "【雪解けに】月村手毬",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/02/28",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "temari-ssr-anomaly2",
+        "name": "【一体いつから】月村手毬",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/01/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "temari-ssr-logic3",
+        "name": "【がむしゃらに行こう！】月村手毬",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/10/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "temari-ssr-logic4",
+        "name": "【ガラクタロード】月村手毬",
+        "rarity": "SSR",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "temari-ssr-anomaly3",
+        "name": "【「ねえ、言っちゃうよ。」】月村手毬",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 120,
+          "da": 100,
+          "vi": 80
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 27.5,
+          "vi": 11.5
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/08/17",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 1,
+          "vi": 3
+        },
+        "recommendedEffect": "aggressive"
+      }
+    ]
+  },
+  {
+    "id": "kotone",
+    "lastName": "藤田",
+    "firstName": "ことね",
+    "versions": [
+      {
+        "id": "kotone-r-logic",
+        "name": "【学園生活】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 80,
+          "da": 80,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 6,
+          "da": 24.5,
+          "vi": 22.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 1,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "kotone-sr-logic",
+        "name": "【カワイイ♡はじめました】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 85,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 7,
+          "da": 26.5,
+          "vi": 24.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "kotone-ssr-logic1",
+        "name": "【世界一可愛い私】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "kotone-r-sense",
+        "name": "【初声】藤田ことね",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 80,
+          "da": 80,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 6,
+          "da": 28.5,
+          "vi": 24.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "kotone-ssr-sense1",
+        "name": "【Yellow Big Bang！】藤田ことね",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 27.5,
+          "vi": 22.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 3,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/06/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "kotone-ssr-logic2",
+        "name": "【冠菊】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/11",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "kotone-ssr-logic3",
+        "name": "【White Night! White Wish!】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/11/28",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "kotone-ssr-logic4",
+        "name": "【Campus mode!!】藤田ことね",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/12/26",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "kotone-ssr-anomaly1",
+        "name": "【雨上がりのアイリス】藤田ことね",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "kotone-ssr-sense2",
+        "name": "【自己肯定感爆上げ↑↑しゅきしゅきソング】藤田ことね",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/08/12",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "kotone-ssr-sense3",
+        "name": "【がむしゃらに行こう！】藤田ことね",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2025/09/29",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "kotone-ssr-anomaly2",
+        "name": "【GO MY WAY!!】藤田ことね",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 8,
+          "da": 29.5,
+          "vi": 25.5
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/06/26",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "fullPower"
+      }
+    ]
+  },
+  {
+    "id": "mao",
+    "lastName": "有村",
+    "firstName": "麻央",
+    "versions": [
+      {
+        "id": "mao-r-sense",
+        "name": "【学園生活】有村麻央",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 80,
+          "vi": 105
+        },
+        "lessonBonus": {
+          "vo": 22,
+          "da": 9,
+          "vi": 25
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 1,
+          "da": 0,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "mao-sr-sense",
+        "name": "【はじまりはカッコよく】有村麻央",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 85,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 24,
+          "da": 10,
+          "vi": 27
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "mao-ssr-sense1",
+        "name": "【Fluorite】有村麻央",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "mao-r-logic",
+        "name": "【初恋】有村麻央",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 80,
+          "vi": 105
+        },
+        "lessonBonus": {
+          "vo": 24,
+          "da": 9,
+          "vi": 29
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/14",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "mao-ssr-logic1",
+        "name": "【Feel Jewel Dream】有村麻央",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/20",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "mao-ssr-sense2",
+        "name": "【キミとセミブルー】有村麻央",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/07/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "mao-ssr-anomaly1",
+        "name": "【Campus mode!!】有村麻央",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 1,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/02",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "mao-ssr-anomaly2",
+        "name": "【雪解けに】有村麻央",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/03/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "mao-ssr-logic2",
+        "name": "【ミラクルナナウ(ﾟ∀ﾟ)！】有村麻央",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/08/29",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "mao-ssr-sense3",
+        "name": "【見て】有村麻央",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/10/31",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "mao-ssr-sense4",
+        "name": "【SUGAR FLAVOR】有村麻央",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/06/15",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "mao-ssr-sense5",
+        "name": "【標】有村麻央",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 125,
+          "da": 90,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 11,
+          "vi": 29
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/04",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      }
+    ]
+  },
+  {
+    "id": "riiriya",
+    "lastName": "葛城",
+    "firstName": "リーリヤ",
+    "versions": [
+      {
+        "id": "riiriya-r-logic",
+        "name": "【学園生活】葛城リーリヤ",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 90,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 16,
+          "da": 24,
+          "vi": 20
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 1,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "riiriya-sr-logic",
+        "name": "【一つ踏み出した先に】葛城リーリヤ",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 95,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 17,
+          "da": 26,
+          "vi": 22
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "riiriya-ssr-logic1",
+        "name": "【白線】葛城リーリヤ",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "riiriya-r-sense",
+        "name": "【初心】葛城リーリヤ",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 90,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 16,
+          "da": 28,
+          "vi": 22
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/01",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "riiriya-ssr-sense1",
+        "name": "【冠菊】葛城リーリヤ",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2024/08/01",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "riiriya-ssr-logic2",
+        "name": "【White Night! White Wish!】葛城リーリヤ",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 100,
+          "da": 105,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2024/12/09",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "riiriya-ssr-sense2",
+        "name": "【Campus mode!!】葛城リーリヤ",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/16",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "riiriya-ssr-anomaly1",
+        "name": "【極光】葛城リーリヤ",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/03/21",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "riiriya-ssr-anomaly2",
+        "name": "【桜フォトグラフ】葛城リーリヤ",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/04/01",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "riiriya-ssr-logic3",
+        "name": "【Howling over the World】葛城リーリヤ",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/06/09",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "riiriya-ssr-anomaly3",
+        "name": "【Atmosphere】葛城リーリヤ",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/12/08",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "riiriya-ssr-sense3",
+        "name": "【ときめきエモーション】葛城リーリヤ",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2026/04/01",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "riiriya-ssr-logic4",
+        "name": "【ガラクタロード】葛城リーリヤ",
+        "rarity": "SSR",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/06/05",
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      }
+    ]
+  },
+  {
+    "id": "china",
+    "lastName": "倉本",
+    "firstName": "千奈",
+    "versions": [
+      {
+        "id": "china-r-logic",
+        "name": "【学園生活】倉本千奈",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 115,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 25,
+          "vi": 19.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 1,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "china-sr-logic",
+        "name": "【胸を張って一歩ずつ】倉本千奈",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 90,
+          "da": 120,
+          "vi": 130
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 27,
+          "vi": 21.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "china-ssr-logic1",
+        "name": "【Wonder Scale】倉本千奈",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "china-r-sense",
+        "name": "【初心】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 115,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 29,
+          "vi": 21.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/01",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "china-ssr-sense1",
+        "name": "【日々、発見的ステップ！】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/08/22",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "china-ssr-sense2",
+        "name": "【ようこそ初星温泉】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/11",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "china-ssr-sense3",
+        "name": "【仮装狂騒曲】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/30",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "china-ssr-logic2",
+        "name": "【Campus mode!!】倉本千奈",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/09",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "china-ssr-logic3",
+        "name": "【雪解けに】倉本千奈",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/02/28",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "china-ssr-anomaly1",
+        "name": "【Howling over the World】倉本千奈",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/29",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "china-ssr-sense4",
+        "name": "【みちなるひろがる】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2026/01/27",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "china-ssr-sense5",
+        "name": "【空と約束】倉本千奈",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/10/21",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "china-ssr-logic4",
+        "name": "【標】倉本千奈",
+        "rarity": "SSR",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/04",
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      }
+    ]
+  },
+  {
+    "id": "sumika",
+    "lastName": "紫雲",
+    "firstName": "清夏",
+    "versions": [
+      {
+        "id": "sumika-r-sense",
+        "name": "【学園生活】紫雲清夏",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 105,
+          "vi": 85
+        },
+        "lessonBonus": {
+          "vo": 10,
+          "da": 26,
+          "vi": 23
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 1,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "sumika-sr-sense",
+        "name": "【夢へのリスタート】紫雲清夏",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 100,
+          "da": 110,
+          "vi": 90
+        },
+        "lessonBonus": {
+          "vo": 1,
+          "da": 28,
+          "vi": 25
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "sumika-ssr-sense1",
+        "name": "【Tame-Lie-One-Step】紫雲清夏",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "sumika-r-logic",
+        "name": "【初恋】紫雲清夏",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 105,
+          "vi": 85
+        },
+        "lessonBonus": {
+          "vo": 10,
+          "da": 30,
+          "vi": 25
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/14",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "sumika-ssr-logic1",
+        "name": "【キミとセミブルー】紫雲清夏",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2024/07/01",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "sumika-ssr-anomaly1",
+        "name": "【カクシタワタシ】紫雲清夏",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/12/18",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "sumika-ssr-logic2",
+        "name": "【Campus mode!!】紫雲清夏",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "sumika-ssr-sense2",
+        "name": "【桜フォトグラフ】紫雲清夏",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2025/04/01",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "sumika-ssr-sense3",
+        "name": "【Love & Joy】紫雲清夏",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/06/19",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "sumika-ssr-logic3",
+        "name": "【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲清夏",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/08/29",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "sumika-ssr-anomaly2",
+        "name": "【ときめきエモーション】紫雲清夏",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2026/04/01",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "sumika-ssr-sense4",
+        "name": "【標】紫雲清夏",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 105,
+          "da": 115,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 30,
+          "vi": 27
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/04",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 2,
+          "vi": 1
+        },
+        "recommendedEffect": "concentration"
+      }
+    ]
+  },
+  {
+    "id": "hiro",
+    "lastName": "篠澤",
+    "firstName": "広",
+    "versions": [
+      {
+        "id": "hiro-r-logic",
+        "name": "【学園生活】篠澤広",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 120,
+          "da": 115,
+          "vi": 85
+        },
+        "lessonBonus": {
+          "vo": 26,
+          "da": 18.5,
+          "vi": 11
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 2,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "hiro-sr-logic",
+        "name": "【一番向いてないこと】篠澤広",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 125,
+          "da": 120,
+          "vi": 90
+        },
+        "lessonBonus": {
+          "vo": 28,
+          "da": 21.5,
+          "vi": 12
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "hiro-ssr-logic1",
+        "name": "【光景】篠澤広",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "hiro-r-sense",
+        "name": "【初恋】篠澤広",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 120,
+          "da": 115,
+          "vi": 85
+        },
+        "lessonBonus": {
+          "vo": 29,
+          "da": 21.5,
+          "vi": 11
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/14",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "hiro-ssr-sense1",
+        "name": "【コントラスト】篠澤広",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/07/22",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "hiro-ssr-sense2",
+        "name": "【仮装狂騒曲】篠澤広",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/08",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "hiro-ssr-logic2",
+        "name": "【Campus mode!!】篠澤広",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/09",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "hiro-ssr-anomaly1",
+        "name": "【ハッピーミルフィーユ】篠澤広",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/02/01",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "hiro-ssr-anomaly2",
+        "name": "【サンフェーデッド】篠澤広",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/17",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "hiro-ssr-anomaly3",
+        "name": "【ミラクルナナウ(ﾟ∀ﾟ)！】篠澤広",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/09/08",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "hiro-ssr-logic3",
+        "name": "【みちなるひろがる】篠澤広",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/01/27",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "hiro-ssr-sense3",
+        "name": "【ガラクタロード】篠澤広",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/05/26",
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "hiro-ssr-anomaly4",
+        "name": "【め】篠澤広",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 130,
+          "da": 125,
+          "vi": 95
+        },
+        "hifTrueStats": {
+          "vo": 5,
+          "da": 5,
+          "vi": 15
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 24.5,
+          "vi": 13
+        },
+        "talentLessonBonus": {
+          "vo": 5,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/20",
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      }
+    ]
+  },
+  {
+    "id": "rinami",
+    "lastName": "姫崎",
+    "firstName": "莉波",
+    "versions": [
+      {
+        "id": "rinami-r-sense",
+        "name": "【学園生活】姫崎莉波",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 75,
+          "da": 110,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 11,
+          "da": 20.5,
+          "vi": 26.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 1,
+          "vi": 1
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "rinami-sr-sense",
+        "name": "【『私らしさ』のはじまり】姫崎莉波",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 80,
+          "da": 115,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 12,
+          "da": 22.5,
+          "vi": 28.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 2,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "rinami-ssr-sense1",
+        "name": "【clumsy trick】姫崎莉波",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "rinami-r-logic",
+        "name": "【初心】姫崎莉波",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 75,
+          "da": 110,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 11,
+          "da": 22.5,
+          "vi": 30.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "rinami-ssr-logic1",
+        "name": "【ようこそ初星温泉】姫崎莉波",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/09/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "rinami-ssr-sense2",
+        "name": "【キミとセミブルー】姫崎莉波",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2024/07/12",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "rinami-ssr-logic2",
+        "name": "【L.U.V】姫崎莉波",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 80,
+          "da": 115,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/10/18",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "rinami-ssr-anomaly1",
+        "name": "【Campus mode!!】姫崎莉波",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/02",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "rinami-ssr-anomaly2",
+        "name": "【ハッピーミルフィーユ】姫崎莉波",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/02/01",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "rinami-ssr-logic3",
+        "name": "【36℃ U･B･U】姫崎莉波",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/09/17",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "rinami-ssr-sense3",
+        "name": "【Howling over the World】姫崎莉波",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/29",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "rinami-ssr-sense4",
+        "name": "【ガラクタロード】姫崎莉波",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/05/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "rinami-ssr-anomaly3",
+        "name": "【SUGAR FLAVOR】姫崎莉波",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 85,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 24.5,
+          "vi": 30.5
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2026/06/15",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 10,
+          "vi": 15
+        },
+        "hifTrueLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      }
+    ]
+  },
+  {
+    "id": "ume",
+    "lastName": "花海",
+    "firstName": "佑芽",
+    "versions": [
+      {
+        "id": "ume-r-logic",
+        "name": "【学園生活】花海佑芽",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 105,
+          "da": 110,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 20,
+          "da": 24,
+          "vi": 16
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 1,
+          "da": 2,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/06/01",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "ume-sr-logic",
+        "name": "【アイドル、はじめっ！】花海佑芽",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 110,
+          "da": 115,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 21,
+          "da": 26,
+          "vi": 17
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 3,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/06/01",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "ume-ssr-logic1",
+        "name": "【The Rolling Riceball】花海佑芽",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/06/01",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "ume-r-sense",
+        "name": "【初陣】花海佑芽",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 105,
+          "da": 110,
+          "vi": 115
+        },
+        "lessonBonus": {
+          "vo": 22,
+          "da": 27,
+          "vi": 16
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/04",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "ume-ssr-sense1",
+        "name": "【White Night! White Wish!】花海佑芽",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2024/11/28",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "ume-ssr-anomaly1",
+        "name": "【Campus mode!!】花海佑芽",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/09",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "ume-ssr-anomaly2",
+        "name": "【グースーピー】花海佑芽",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/11/28",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "ume-ssr-logic2",
+        "name": "【Star-mine】花海佑芽",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/31",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "ume-ssr-sense2",
+        "name": "【ENDLESS DANCE】花海佑芽",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 15,
+          "vi": 0
+        },
+        "releaseDate": "2026/02/27",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "concentration"
+      },
+      {
+        "id": "ume-ssr-logic3",
+        "name": "【真っ白いページと水彩の主人公】花海佑芽",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/04/10",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "ume-ssr-logic4",
+        "name": "【GO MY WAY!!】花海佑芽",
+        "rarity": "SSR",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/07/08",
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "recommendedEffect": "goodImpression"
+      }
+    ]
+  },
+  {
+    "id": "sena",
+    "lastName": "十王",
+    "firstName": "星南",
+    "versions": [
+      {
+        "id": "sena-r-anomaly",
+        "name": "【学園生活】十王星南",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 155,
+          "da": 105,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 16,
+          "da": 11,
+          "vi": 24.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "sena-sr-anomaly",
+        "name": "【一番星】十王星南",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 165,
+          "da": 115,
+          "vi": 130
+        },
+        "lessonBonus": {
+          "vo": 17,
+          "da": 12,
+          "vi": 25.5
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "sena-ssr-anomaly1",
+        "name": "【小さな野望】十王星南",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2024/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "sena-r-logic",
+        "name": "【初陣】十王星南",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 155,
+          "da": 105,
+          "vi": 120
+        },
+        "lessonBonus": {
+          "vo": 16,
+          "da": 11,
+          "vi": 24.5
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/04",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "sena-ssr-sense1",
+        "name": "【Campus mode!!】十王星南",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/01/02",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "sena-ssr-logic1",
+        "name": "【ハッピーミルフィーユ】十王星南",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/02/14",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "sena-ssr-logic2",
+        "name": "【Our Chant】十王星南",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/04/22",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "sena-ssr-logic3",
+        "name": "【赤裸々】十王星南",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/02/09",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "sena-ssr-anomaly2",
+        "name": "【Star-mine】十王星南",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2025/07/31",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "sena-ssr-anomaly3",
+        "name": "【ENDLESS DANCE】十王星南",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 15
+        },
+        "releaseDate": "2026/03/09",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "sena-ssr-logic-4",
+        "name": "【ガラクタロード】十王星南",
+        "rarity": "SSR",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/10",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "sena-ssr-sense-2",
+        "name": "【「ねえ、言っちゃうよ。」】十王星南",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/08/17",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      }
+    ]
+  },
+  {
+    "id": "misuzu",
+    "lastName": "秦谷",
+    "firstName": "美鈴",
+    "versions": [
+      {
+        "id": "misuzu-r-anomaly",
+        "name": "【学園生活】秦谷美鈴",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 85,
+          "da": 115,
+          "vi": 130
+        },
+        "lessonBonus": {
+          "vo": 29,
+          "da": 11,
+          "vi": 20
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/16",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "preservation"
+      },
+      {
+        "id": "misuzu-sr-anomaly",
+        "name": "【ゆっくり、一歩ずつ】秦谷美鈴",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 90,
+          "da": 120,
+          "vi": 135
+        },
+        "lessonBonus": {
+          "vo": 30,
+          "da": 12,
+          "vi": 21
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/16",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "preservation"
+      },
+      {
+        "id": "misuzu-ssr-anomaly1",
+        "name": "【ツキノカメ】秦谷美鈴",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/05/16",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "preservation"
+      },
+      {
+        "id": "misuzu-ssr-anomaly2",
+        "name": "【VEIL】秦谷美鈴",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/04/29",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "misuzu-r-logic",
+        "name": "【初陣】秦谷美鈴",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 85,
+          "da": 115,
+          "vi": 130
+        },
+        "lessonBonus": {
+          "vo": 29,
+          "da": 11,
+          "vi": 20
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/04",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "misuzu-ssr-logic1",
+        "name": "【Campus mode!!】秦谷美鈴",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/06/30",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "misuzu-ssr-sense1",
+        "name": "【Star-mine】秦谷美鈴",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 15,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/07/31",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "misuzu-ssr-logic2",
+        "name": "【Superlative】秦谷美鈴",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/01/05",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "misuzu-ssr-logic3",
+        "name": "【ENDLESS DANCE】秦谷美鈴",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/02/27",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "misuzu-ssr-sense2",
+        "name": "【「ねえ、言っちゃうよ。」】秦谷美鈴",
+        "rarity": "SSR",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/08/26",
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "recommendedEffect": "concentration"
+      }
+    ]
+  },
+  {
+    "id": "tsubame",
+    "lastName": "雨夜",
+    "firstName": "燕",
+    "versions": [
+      {
+        "id": "tsubame-r-anomaly",
+        "name": "【学園生活】雨夜燕",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 105,
+          "da": 130,
+          "vi": 100
+        },
+        "lessonBonus": {
+          "vo": 17,
+          "da": 22,
+          "vi": 11
+        },
+        "rarity": "R",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "tsubame-sr-logic",
+        "name": "【初志貫徹】雨夜燕",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 110,
+          "da": 135,
+          "vi": 105
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 23,
+          "vi": 12
+        },
+        "rarity": "SR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "tsubame-ssr-logic1",
+        "name": "【理論武装して】雨夜燕",
+        "plan": "logic",
+        "baseStats": {
+          "vo": 115,
+          "da": 140,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 19,
+          "da": 24,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/11/16",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "motivation"
+      },
+      {
+        "id": "tsubame-ssr-sense1",
+        "name": "【Campus mode!!】雨夜燕",
+        "plan": "sense",
+        "baseStats": {
+          "vo": 115,
+          "da": 140,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 19,
+          "da": 24,
+          "vi": 13
+        },
+        "rarity": "SSR",
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2025/12/26",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "goodCondition"
+      },
+      {
+        "id": "tsubame-ssr-anomaly1",
+        "name": "【クライアイ】雨夜燕",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "baseStats": {
+          "vo": 115,
+          "da": 140,
+          "vi": 110
+        },
+        "lessonBonus": {
+          "vo": 19,
+          "da": 24,
+          "vi": 13
+        },
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/07/31",
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "recommendedEffect": "fullPower"
+      }
+    ]
+  }
+]

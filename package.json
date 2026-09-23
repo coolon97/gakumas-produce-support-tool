@@ -1,0 +1,44 @@
+{
+  "name": "gakumas-produce-support-tool",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSING.md",
+  "engines": {
+    "node": ">=22"
+  },
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:cards && npm run test:produce && npm run test:schedule && npm run test:inputs && npm run test:idols && npm run test:support-sort",
+    "test:cards": "tsx --tsconfig tsconfig.node.json --test tests/manual-support-card.test.ts tests/skill-cards.test.ts",
+    "test:produce": "tsx --tsconfig tsconfig.node.json --test tests/hif-produce.test.ts",
+    "test:schedule": "tsx --tsconfig tsconfig.node.json --test tests/hif-schedule.test.ts",
+    "test:inputs": "tsx --tsconfig tsconfig.node.json --test tests/app-inputs.test.ts",
+    "test:idols": "tsx --tsconfig tsconfig.node.json --test tests/idols.test.ts",
+    "test:support-sort": "tsx --tsconfig tsconfig.node.json --test tests/support-card-parameter-total.test.ts tests/support-card-sort-preferences.test.ts tests/support-card-sort.test.ts",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.5.2",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "iconv-lite": "^0.7.2",
+    "node-html-parser": "^6.1.13",
+    "postcss": "^8.4.47",
+    "prettier": "^3.9.8",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vite": "^6.0.0"
+  }
+}

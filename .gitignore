@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+.claude/
+.codex/
+.idea/
+.vscode/
+.npmrc
+*.pem
+*.key
+*.p12
+.DS_Store
+Thumbs.db

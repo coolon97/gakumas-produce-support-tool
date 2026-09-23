@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  src: url('../assets/fonts/ZenMaruGothic-Bold-subset.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@layer utilities {
+  .bg-visual {
+    background-color: #fbbf24;
+  }
+
+  .text-visual {
+    color: #fbbf24;
+  }
+
+  .border-visual {
+    border-color: #fbbf24;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Narrow and portrait layouts use document scrolling instead of nested card scrolling. */
+@media (max-width: 1023px), (orientation: portrait) {
+  .app-shell {
+    height: auto;
+    min-height: 100dvh;
+    overflow: visible;
+  }
+
+  .app-shell .app-main {
+    flex: none;
+    min-height: auto;
+    overflow: visible;
+  }
+
+  .app-panel {
+    max-height: none;
+  }
+
+  .app-panel-scroll {
+    overflow: visible;
+    overscroll-behavior: auto;
+  }
+}
+
+/* Two native, keyboard-accessible thumbs share a single three-colour track. */
+.hif-allocation-slider {
+  appearance: none;
+  position: absolute;
+  inset: 0 -9px;
+  width: calc(100% + 18px);
+  height: 40px;
+  margin: 0;
+  background: transparent;
+  pointer-events: none;
+}
+.hif-allocation-slider:focus {
+  z-index: 2;
+  outline: none;
+}
+.hif-allocation-slider::-webkit-slider-runnable-track {
+  background: transparent;
+  height: 3px;
+}
+.hif-allocation-slider::-moz-range-track {
+  background: transparent;
+  height: 3px;
+}
+.hif-allocation-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 24px;
+  margin-top: -10px;
+  border: 2px solid #64748b;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0 1px 3px #0002;
+  pointer-events: auto;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.hif-allocation-slider::-moz-range-thumb {
+  width: 14px;
+  height: 20px;
+  border: 2px solid #64748b;
+  border-radius: 6px;
+  background: white;
+  pointer-events: auto;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.hif-allocation-slider-vo::-webkit-slider-thumb {
+  border-color: #db2777;
+}
+.hif-allocation-slider-vi::-webkit-slider-thumb {
+  border-color: #ca8a04;
+}
+.hif-allocation-slider-vo::-moz-range-thumb {
+  border-color: #db2777;
+}
+.hif-allocation-slider-vi::-moz-range-thumb {
+  border-color: #ca8a04;
+}
+/* Expose both thumbs even when the Da region is zero. */
+.hif-allocation-slider-vo.hif-allocation-slider-overlap::-webkit-slider-thumb {
+  transform: translateY(-7px);
+}
+.hif-allocation-slider-vi.hif-allocation-slider-overlap::-webkit-slider-thumb {
+  transform: translateY(7px);
+}
+.hif-allocation-slider-vo.hif-allocation-slider-overlap::-moz-range-thumb {
+  transform: translateY(-7px);
+}
+.hif-allocation-slider-vi.hif-allocation-slider-overlap::-moz-range-thumb {
+  transform: translateY(7px);
+}
+.hif-allocation-slider:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid #94a3b8;
+  outline-offset: 2px;
+}
+.hif-allocation-slider:focus-visible::-moz-range-thumb {
+  outline: 3px solid #94a3b8;
+  outline-offset: 2px;
+}
+
+/* カスタムスクロールバー */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
