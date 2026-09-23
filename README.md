@@ -4,7 +4,7 @@
 
 ## 開発・ビルド
 
-Node.js 22以降とnpmが必要です。。
+Node.js 22以降とnpmが必要です。
 
 ```sh
 npm ci
@@ -17,7 +17,7 @@ npm run build
 npm run preview
 ```
 
-ビルド結果は `dist/` に生成されます。入力内容はブラウザのlocalStorageに保存されます。
+ビルド結果は `dist/` に生成されます。
 
 ## ライセンス
 
