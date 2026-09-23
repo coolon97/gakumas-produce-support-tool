@@ -890,7 +890,12 @@ export function Tutorial({
                   else if (step.id === 'finish') {
                     finish()
                     requestAnimationFrame(() => {
-                      window.scrollTo({
+                      const scrollTarget = window.matchMedia(
+                        '(max-width: 1023px), (orientation: portrait)',
+                      ).matches
+                        ? window
+                        : document.querySelector<HTMLElement>('[data-tutorial-produce-scroll]')
+                      scrollTarget?.scrollTo({
                         top: 0,
                         behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
                           ? 'instant'
