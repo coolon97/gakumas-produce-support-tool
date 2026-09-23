@@ -5,7 +5,7 @@
  * The Wiki observations at or below 5,500 are retained for app interpolation
  * but excluded when fitting candidate formulas because their reliability is low.
  * Selection exams 1 and 2 use the Wiki's calculated star-power cap scores.
- * Selection exam 3 retains the user's specified default score of 390,000.
+ * Selection exam 3 uses the user's specified cap score of 390,910.
  */
 export const HIF_SELECTION_EXAMS = [
   {
@@ -53,7 +53,7 @@ export const HIF_SELECTION_EXAMS = [
     ],
   },
   {
-    scoreCap: 390000,
+    scoreCap: 390910,
     starPowerCap: 110,
     parameterCap: 520,
     fixedParameter: 300,
@@ -61,7 +61,7 @@ export const HIF_SELECTION_EXAMS = [
     starPowerSegments: [
       { endScore: 100000, rate: 0.00055 },
       { endScore: 200000, rate: 0.00033 },
-      // Wikiの倍率は20万点以降0.00011。入力上限390,000点へ圧縮しない。
+      // Wikiの倍率は20万点以降0.00011。入力上限390,910点へ圧縮しない。
       { endScore: 400000, rate: 0.00011 },
     ],
     samples: [

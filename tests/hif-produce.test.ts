@@ -218,7 +218,7 @@ test('selection reward approximation reproduces observed samples and saturates a
 test('selection exam star power follows the Wiki piecewise formula independently of default score caps', () => {
   assert.deepEqual(
     HIF_SELECTION_EXAMS.map((exam) => exam.scoreCap),
-    [14001, 146364, 390000],
+    [14001, 146364, 390910],
   )
   assert.deepEqual(
     [0, 3000, 3001, 7000, 7001, 14000, 14001, 15000].map((score) => getHifSelectionExamStarPower(0, score)),

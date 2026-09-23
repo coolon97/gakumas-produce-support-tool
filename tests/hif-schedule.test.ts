@@ -569,9 +569,9 @@ test('manual SP route executes exactly 29 steps and only selected lessons/classe
   assert.deepEqual(result.eventCounts, { normalLessons: 0, spLessons: 8, supportEvents: 0, exams: 5 })
   assert.equal(result.finalStats.vo + result.finalStats.da + result.finalStats.vi, 1140 + 900 + 1100)
   assert.equal(result.evaluation!.statsScore, 2 * (1140 + 900 + 1100))
-  assert.equal(result.simulation!.finalState.starPower, 1213)
+  assert.equal(result.simulation!.finalState.starPower, 1215)
   assert.equal(result.simulation!.finalState.hifBadgeTriggerCount, 12)
-  assert.equal(result.evaluation!.starPowerScore, 9097)
+  assert.equal(result.evaluation!.starPowerScore, 9112)
   assert.deepEqual(calculate([], c), result)
   c.hif.schedule!.steps[1].action = 'rest'
   c.hif.schedule!.steps[2].action = 'rest'
