@@ -15,3 +15,6 @@ dist/
 *.p12
 .DS_Store
 Thumbs.db
+
+# Local agent instructions
+AGENTS.md
