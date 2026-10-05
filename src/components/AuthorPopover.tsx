@@ -2,7 +2,7 @@ import { useEffect, useId, useRef, useState } from 'react'
 import { toolInfo } from '@/data/tool-info'
 import authorAvatar from '@assets/author/author-avatar.jpg'
 
-export function AuthorPopover() {
+export function AuthorPopover({ onOpenReleaseNotes }: { onOpenReleaseNotes: () => void }) {
   const [open, setOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
   const buttonRef = useRef<HTMLButtonElement>(null)
@@ -94,6 +94,17 @@ export function AuthorPopover() {
                 v{toolInfo.version}
               </span>
             </div>
+            <button
+              type="button"
+              onClick={() => {
+                buttonRef.current?.focus()
+                setOpen(false)
+                onOpenReleaseNotes()
+              }}
+              className="mt-3 rounded px-1 py-1 text-xs font-semibold text-blue-600 underline underline-offset-2 hover:text-blue-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+            >
+              更新履歴
+            </button>
             <dl className="mt-4 divide-y divide-slate-100 border-t border-slate-100 text-xs">
               <div className="flex items-baseline justify-between gap-4 py-3">
                 <dt className="shrink-0 text-gray-500">GitHub</dt>

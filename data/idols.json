@@ -2783,6 +2783,49 @@
           "vi": 3
         },
         "recommendedEffect": "motivation"
+      },
+      {
+        "id": "riiriya-ssr-sense-a2b4ea9bff",
+        "name": "【Agitato】葛城リーリヤ",
+        "rarity": "SSR",
+        "plan": "sense",
+        "recommendedEffect": "goodCondition",
+        "baseStats": {
+          "vo": 95,
+          "da": 100,
+          "vi": 120
+        },
+        "hifTrueStats": {
+          "vo": 15,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 3
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 28,
+          "vi": 24
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/30"
       }
     ]
   },
@@ -5484,6 +5527,49 @@
           "vi": 3
         },
         "recommendedEffect": "goodImpression"
+      },
+      {
+        "id": "ume-ssr-anomaly-f382343e41",
+        "name": "【Agitato】花海佑芽",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "recommendedEffect": "fullPower",
+        "baseStats": {
+          "vo": 115,
+          "da": 120,
+          "vi": 125
+        },
+        "hifTrueStats": {
+          "vo": 25,
+          "da": 25,
+          "vi": 25
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 3
+        },
+        "lessonBonus": {
+          "vo": 23,
+          "da": 28,
+          "vi": 18
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 5,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/09/30"
       }
     ]
   },
