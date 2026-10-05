@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "targetBranch": "main",
+  "taskBranchPrefix": "codex/",
+  "checks": [
+    {
+      "id": "tests",
+      "instruction": "Run npm.cmd test from this worktree. Every test suite must pass.",
+      "phases": ["candidate", "target", "rollback"]
+    },
+    {
+      "id": "production-build",
+      "instruction": "Run npm.cmd run build from this worktree. TypeScript and the Vite production build must succeed.",
+      "phases": ["candidate", "target", "rollback"]
+    },
+    {
+      "id": "ui-review",
+      "instruction": "Serve this worktree's production build with npm.cmd run preview on a dedicated port. Inspect changed UI in a browser at desktop and mobile widths for images, layout, keyboard controls and relevant interactions. For rollback, inspect the restored affected screen. Follow the applicable UI_GUIDELINES.md.",
+      "phases": ["candidate", "target", "rollback"]
+    }
+  ]
+}
