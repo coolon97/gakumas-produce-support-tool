@@ -20,3 +20,9 @@
 
 - カード画像は元PNGから上下左右それぞれ5pxをトリミングし、200×270pxにLANCZOSでリサイズした後、ロスレスWebPで保存する。
 - 変換済み画像を再トリミングしない。開発側の `scripts/normalize-pidol-images.py` で全画像を同じ条件に揃え、公開用にも同じ画像を反映する。
+
+## PアイドルのID
+
+- 衣装IDは `キャラ名-レアリティ-プラン{連番}` とする（例：`saki-r-sense1`、`riiriya-ssr-sense4`）。キャラ名は既存のキャラID、レアリティは小文字、プランは `sense`・`logic`・`anomaly`。
+- 連番はキャラ・レアリティ・プランごとに1から採番し、追加時は既存の最大番号に1を足す。既存の番号は並べ替えで変更しない。
+- 画像ファイル名も衣装IDと揃える。元PNGとの対応は開発側の `scripts/provenance/pidol-image-sources.json` に記録する。

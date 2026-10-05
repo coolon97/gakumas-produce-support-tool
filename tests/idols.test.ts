@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { existsSync } from 'node:fs'
+import { existsSync, readdirSync } from 'node:fs'
 import { IDOLS, findIdolVersion } from '../src/data/idols.ts'
 import { getIdolProgression, normalizeTalentStage } from '../src/lib/idol-progression.ts'
 import { getProduceStats } from '../src/lib/calculator/produce-stats.ts'
@@ -12,6 +12,40 @@ import { normalizeHifSchedule } from '../src/lib/hif-schedule.ts'
 import { compareIdolEntries, normalizeIdolSortKey } from '../src/lib/idol-sort.ts'
 import cardsData from '../data/cards.json'
 import type { SupportCard } from '../src/types/card.ts'
+
+test('P-idol IDs and portrait filenames use contiguous character-rarity-plan sequences', () => {
+  const allIds = new Set<string>()
+  for (const idol of IDOLS) {
+    const sequences = new Map<string, number[]>()
+    for (const version of idol.versions) {
+      assert.ok(version.rarity, version.id)
+      const prefix = `${idol.id}-${version.rarity.toLowerCase()}-${version.plan}`
+      const suffix = version.id.slice(prefix.length)
+      assert.ok(version.id.startsWith(prefix) && /^[1-9]\d*$/.test(suffix), version.id)
+      assert.ok(!allIds.has(version.id), `Duplicate ID: ${version.id}`)
+      allIds.add(version.id)
+      sequences.set(prefix, [...(sequences.get(prefix) ?? []), Number(suffix)])
+      assert.ok(
+        existsSync(
+          new URL(`../assets/game/PIdol/converted/${version.rarity}/${version.id}.webp`, import.meta.url),
+        ),
+        version.id,
+      )
+    }
+    for (const values of sequences.values())
+      assert.deepEqual(
+        values.sort((a, b) => a - b),
+        Array.from({ length: values.length }, (_, i) => i + 1),
+      )
+  }
+  const portraitIds = ['R', 'SR', 'SSR'].flatMap((rarity) =>
+    readdirSync(new URL(`../assets/game/PIdol/converted/${rarity}/`, import.meta.url))
+      .filter((file) => file.endsWith('.webp'))
+      .map((file) => file.slice(0, -5)),
+  )
+  assert.equal(portraitIds.length, allIds.size)
+  assert.deepEqual(new Set(portraitIds), allIds)
+})
 
 test('idol sorting prioritizes each selected field and places undated costumes last', () => {
   const make = (
@@ -115,7 +149,7 @@ test('all 13 characters and current costumes have unique IDs, verified numbers, 
     assert.equal(new Set(idol.versions.map((v) => JSON.stringify(v.hifTrueStats))).size, 1)
     assert.equal(new Set(idol.versions.map((v) => JSON.stringify(v.hifTrueLessonBonus))).size, 1)
   }
-  assert.equal(findIdolVersion('temari', 'saki-r-sense'), undefined)
+  assert.equal(findIdolVersion('temari', 'saki-r-sense1'), undefined)
 })
 
 test('talent 3 removes only its own bonus below stage 3, talent 1 enables its SP bonus', () => {
@@ -144,12 +178,12 @@ test('store slices retain manual memory/base inputs; costume changes use selecte
     assert.deepEqual(config.idolBaseStats, { vo: 1, da: 2, vi: 3 })
     assert.deepEqual(config.memoryLessonBonus, { vo: 7, da: 8, vi: 9 })
     assert.deepEqual(config.idolLessonBonus, { vo: 16.5, da: 16.5, vi: 20.5 })
-    actions.setVersion('saki-r-sense')
+    actions.setVersion('saki-r-sense1')
     config = useAppStore.getState().produceConfig
     assert.equal(config.idolTalentStage, 2)
     assert.deepEqual(
       config.idolLessonBonus,
-      getIdolProgression(findIdolVersion('saki', 'saki-r-sense')!, 2).idolLessonBonus,
+      getIdolProgression(findIdolVersion('saki', 'saki-r-sense1')!, 2).idolLessonBonus,
     )
     const values = new Map<string, string>()
     const storage = {

@@ -5,7 +5,7 @@
     "firstName": "咲季",
     "versions": [
       {
-        "id": "saki-r-sense",
+        "id": "saki-r-sense1",
         "name": "【学園生活】花海咲季",
         "plan": "sense",
         "baseStats": {
@@ -48,7 +48,7 @@
         "recommendedEffect": "goodCondition"
       },
       {
-        "id": "saki-sr-sense",
+        "id": "saki-sr-sense1",
         "name": "【わたしが一番！】花海咲季",
         "plan": "sense",
         "baseStats": {
@@ -134,7 +134,7 @@
         "recommendedEffect": "goodCondition"
       },
       {
-        "id": "saki-r-logic",
+        "id": "saki-r-logic1",
         "name": "【初声】花海咲季",
         "plan": "logic",
         "baseStats": {
@@ -521,7 +521,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "saki-ssr-sense-4",
+        "id": "saki-ssr-sense4",
         "name": "【GO MY WAY!!】花海咲季",
         "rarity": "SSR",
         "plan": "sense",
@@ -564,7 +564,7 @@
         "recommendedEffect": "goodCondition"
       },
       {
-        "id": "saki-ssr-anomaly-3",
+        "id": "saki-ssr-anomaly3",
         "name": "【ガラクタロード】花海咲季",
         "rarity": "SSR",
         "plan": "anomaly",
@@ -614,7 +614,7 @@
     "firstName": "手毬",
     "versions": [
       {
-        "id": "temari-r-sense",
+        "id": "temari-r-sense1",
         "name": "【学園生活】月村手毬",
         "plan": "sense",
         "baseStats": {
@@ -657,7 +657,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "temari-sr-sense",
+        "id": "temari-sr-sense1",
         "name": "【一匹狼】月村手毬",
         "plan": "sense",
         "baseStats": {
@@ -743,7 +743,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "temari-r-logic",
+        "id": "temari-r-logic1",
         "name": "【初声】月村手毬",
         "plan": "logic",
         "baseStats": {
@@ -1180,7 +1180,7 @@
     "firstName": "ことね",
     "versions": [
       {
-        "id": "kotone-r-logic",
+        "id": "kotone-r-logic1",
         "name": "【学園生活】藤田ことね",
         "plan": "logic",
         "baseStats": {
@@ -1223,7 +1223,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "kotone-sr-logic",
+        "id": "kotone-sr-logic1",
         "name": "【カワイイ♡はじめました】藤田ことね",
         "plan": "logic",
         "baseStats": {
@@ -1309,7 +1309,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "kotone-r-sense",
+        "id": "kotone-r-sense1",
         "name": "【初声】藤田ことね",
         "plan": "sense",
         "baseStats": {
@@ -1703,7 +1703,7 @@
     "firstName": "麻央",
     "versions": [
       {
-        "id": "mao-r-sense",
+        "id": "mao-r-sense1",
         "name": "【学園生活】有村麻央",
         "plan": "sense",
         "baseStats": {
@@ -1746,7 +1746,7 @@
         "recommendedEffect": "goodCondition"
       },
       {
-        "id": "mao-sr-sense",
+        "id": "mao-sr-sense1",
         "name": "【はじまりはカッコよく】有村麻央",
         "plan": "sense",
         "baseStats": {
@@ -1832,7 +1832,7 @@
         "recommendedEffect": "goodCondition"
       },
       {
-        "id": "mao-r-logic",
+        "id": "mao-r-logic1",
         "name": "【初恋】有村麻央",
         "plan": "logic",
         "baseStats": {
@@ -2226,7 +2226,7 @@
     "firstName": "リーリヤ",
     "versions": [
       {
-        "id": "riiriya-r-logic",
+        "id": "riiriya-r-logic1",
         "name": "【学園生活】葛城リーリヤ",
         "plan": "logic",
         "baseStats": {
@@ -2269,7 +2269,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "riiriya-sr-logic",
+        "id": "riiriya-sr-logic1",
         "name": "【一つ踏み出した先に】葛城リーリヤ",
         "plan": "logic",
         "baseStats": {
@@ -2355,7 +2355,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "riiriya-r-sense",
+        "id": "riiriya-r-sense1",
         "name": "【初心】葛城リーリヤ",
         "plan": "sense",
         "baseStats": {
@@ -2785,7 +2785,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "riiriya-ssr-sense-a2b4ea9bff",
+        "id": "riiriya-ssr-sense4",
         "name": "【Agitato】葛城リーリヤ",
         "rarity": "SSR",
         "plan": "sense",
@@ -2835,7 +2835,7 @@
     "firstName": "千奈",
     "versions": [
       {
-        "id": "china-r-logic",
+        "id": "china-r-logic1",
         "name": "【学園生活】倉本千奈",
         "plan": "logic",
         "baseStats": {
@@ -2878,7 +2878,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "china-sr-logic",
+        "id": "china-sr-logic1",
         "name": "【胸を張って一歩ずつ】倉本千奈",
         "plan": "logic",
         "baseStats": {
@@ -2964,7 +2964,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "china-r-sense",
+        "id": "china-r-sense1",
         "name": "【初心】倉本千奈",
         "plan": "sense",
         "baseStats": {
@@ -3401,7 +3401,7 @@
     "firstName": "清夏",
     "versions": [
       {
-        "id": "sumika-r-sense",
+        "id": "sumika-r-sense1",
         "name": "【学園生活】紫雲清夏",
         "plan": "sense",
         "baseStats": {
@@ -3444,7 +3444,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "sumika-sr-sense",
+        "id": "sumika-sr-sense1",
         "name": "【夢へのリスタート】紫雲清夏",
         "plan": "sense",
         "baseStats": {
@@ -3530,7 +3530,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "sumika-r-logic",
+        "id": "sumika-r-logic1",
         "name": "【初恋】紫雲清夏",
         "plan": "logic",
         "baseStats": {
@@ -3924,7 +3924,7 @@
     "firstName": "広",
     "versions": [
       {
-        "id": "hiro-r-logic",
+        "id": "hiro-r-logic1",
         "name": "【学園生活】篠澤広",
         "plan": "logic",
         "baseStats": {
@@ -3967,7 +3967,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "hiro-sr-logic",
+        "id": "hiro-sr-logic1",
         "name": "【一番向いてないこと】篠澤広",
         "plan": "logic",
         "baseStats": {
@@ -4053,7 +4053,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "hiro-r-sense",
+        "id": "hiro-r-sense1",
         "name": "【初恋】篠澤広",
         "plan": "sense",
         "baseStats": {
@@ -4490,7 +4490,7 @@
     "firstName": "莉波",
     "versions": [
       {
-        "id": "rinami-r-sense",
+        "id": "rinami-r-sense1",
         "name": "【学園生活】姫崎莉波",
         "plan": "sense",
         "baseStats": {
@@ -4533,7 +4533,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "rinami-sr-sense",
+        "id": "rinami-sr-sense1",
         "name": "【『私らしさ』のはじまり】姫崎莉波",
         "plan": "sense",
         "baseStats": {
@@ -4619,7 +4619,7 @@
         "recommendedEffect": "concentration"
       },
       {
-        "id": "rinami-r-logic",
+        "id": "rinami-r-logic1",
         "name": "【初心】姫崎莉波",
         "plan": "logic",
         "baseStats": {
@@ -5056,7 +5056,7 @@
     "firstName": "佑芽",
     "versions": [
       {
-        "id": "ume-r-logic",
+        "id": "ume-r-logic1",
         "name": "【学園生活】花海佑芽",
         "plan": "logic",
         "baseStats": {
@@ -5099,7 +5099,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "ume-sr-logic",
+        "id": "ume-sr-logic1",
         "name": "【アイドル、はじめっ！】花海佑芽",
         "plan": "logic",
         "baseStats": {
@@ -5185,7 +5185,7 @@
         "recommendedEffect": "motivation"
       },
       {
-        "id": "ume-r-sense",
+        "id": "ume-r-sense1",
         "name": "【初陣】花海佑芽",
         "plan": "sense",
         "baseStats": {
@@ -5529,7 +5529,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "ume-ssr-anomaly-f382343e41",
+        "id": "ume-ssr-anomaly3",
         "name": "【Agitato】花海佑芽",
         "rarity": "SSR",
         "plan": "anomaly",
@@ -5579,7 +5579,7 @@
     "firstName": "星南",
     "versions": [
       {
-        "id": "sena-r-anomaly",
+        "id": "sena-r-anomaly1",
         "name": "【学園生活】十王星南",
         "plan": "anomaly",
         "baseStats": {
@@ -5622,7 +5622,7 @@
         "recommendedEffect": "aggressive"
       },
       {
-        "id": "sena-sr-anomaly",
+        "id": "sena-sr-anomaly1",
         "name": "【一番星】十王星南",
         "plan": "anomaly",
         "baseStats": {
@@ -5708,7 +5708,7 @@
         "recommendedEffect": "aggressive"
       },
       {
-        "id": "sena-r-logic",
+        "id": "sena-r-logic1",
         "name": "【初陣】十王星南",
         "plan": "logic",
         "baseStats": {
@@ -6009,7 +6009,7 @@
         "recommendedEffect": "aggressive"
       },
       {
-        "id": "sena-ssr-logic-4",
+        "id": "sena-ssr-logic4",
         "name": "【ガラクタロード】十王星南",
         "rarity": "SSR",
         "plan": "logic",
@@ -6052,7 +6052,7 @@
         "recommendedEffect": "goodImpression"
       },
       {
-        "id": "sena-ssr-sense-2",
+        "id": "sena-ssr-sense2",
         "name": "【「ねえ、言っちゃうよ。」】十王星南",
         "rarity": "SSR",
         "plan": "sense",
@@ -6102,7 +6102,7 @@
     "firstName": "美鈴",
     "versions": [
       {
-        "id": "misuzu-r-anomaly",
+        "id": "misuzu-r-anomaly1",
         "name": "【学園生活】秦谷美鈴",
         "plan": "anomaly",
         "baseStats": {
@@ -6145,7 +6145,7 @@
         "recommendedEffect": "preservation"
       },
       {
-        "id": "misuzu-sr-anomaly",
+        "id": "misuzu-sr-anomaly1",
         "name": "【ゆっくり、一歩ずつ】秦谷美鈴",
         "plan": "anomaly",
         "baseStats": {
@@ -6274,7 +6274,7 @@
         "recommendedEffect": "aggressive"
       },
       {
-        "id": "misuzu-r-logic",
+        "id": "misuzu-r-logic1",
         "name": "【初陣】秦谷美鈴",
         "plan": "logic",
         "baseStats": {
@@ -6539,7 +6539,7 @@
     "firstName": "燕",
     "versions": [
       {
-        "id": "tsubame-r-anomaly",
+        "id": "tsubame-r-anomaly1",
         "name": "【学園生活】雨夜燕",
         "plan": "anomaly",
         "baseStats": {
@@ -6582,7 +6582,7 @@
         "recommendedEffect": "aggressive"
       },
       {
-        "id": "tsubame-sr-logic",
+        "id": "tsubame-sr-logic1",
         "name": "【初志貫徹】雨夜燕",
         "plan": "logic",
         "baseStats": {
