@@ -59,6 +59,6 @@ test('front-event card settings override catalog defaults without changing the c
 test('base effects that grant several turns of good condition are tagged as goodCondition', () => {
   assert.deepEqual(
     SKILL_CARDS.filter((card) => card.effectTags?.includes('goodCondition')).map((card) => card.name),
-    ['練習再開！', '喧嘩するほど仲がいい', '光の夜', 'キメ顔で自撮り', '切れた鼻緒が結んだ絆'],
+    ['練習再開！', '喧嘩するほど仲がいい', '光の夜', 'キメ顔で自撮り', '切れた鼻緒が結んだ絆', 'なりきりデビル'],
   )
 })

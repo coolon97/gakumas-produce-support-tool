@@ -1,4 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { RELEASE_NOTES } from '@/data/release-notes'
+import { getUnreadReleaseNotes, markReleaseNotesRead } from '@/lib/release-notes'
+import { ReleaseNotesDialog } from '@/components/ReleaseNotesDialog'
 import { DeckBuilder } from '@/components/DeckBuilder'
 import { AuthorPopover } from '@/components/AuthorPopover'
 import { IdolSelectPanel, ProduceConfigPanel } from '@/components/ProduceConfig'
@@ -42,6 +45,14 @@ function writeTutorialBackup(backup: TutorialBackup | null) {
 
 export function App() {
   useOverlayScrollLock()
+  const [unreadReleases] = useState(() => getUnreadReleaseNotes())
+  const [releaseNotesOpen, setReleaseNotesOpen] = useState(unreadReleases.length > 0)
+  const [releaseHistory, setReleaseHistory] = useState(false)
+  const displayedReleases = releaseHistory ? RELEASE_NOTES : unreadReleases
+  const closeReleaseNotes = () => {
+    markReleaseNotesRead(displayedReleases)
+    setReleaseNotesOpen(false)
+  }
   const [tutorialOpen, setTutorialOpen] = useState(shouldShowTutorial)
   const [tutorialProgress, setTutorialProgress] = useState<TutorialProgress | null>(null)
   const tutorialBackup = useRef<TutorialBackup | null>(readTutorialBackup())
@@ -152,7 +163,12 @@ export function App() {
           >
             使い方
           </button>
-          <AuthorPopover />
+          <AuthorPopover
+            onOpenReleaseNotes={() => {
+              setReleaseHistory(true)
+              setReleaseNotesOpen(true)
+            }}
+          />
         </div>
       </header>
 
@@ -190,9 +206,16 @@ export function App() {
         </div>
       </div>
 
+      {releaseNotesOpen && (
+        <ReleaseNotesDialog
+          releases={displayedReleases}
+          history={releaseHistory}
+          onClose={closeReleaseNotes}
+        />
+      )}
       <CardSelectModal />
       <Tutorial
-        open={tutorialOpen}
+        open={tutorialOpen && !releaseNotesOpen}
         onBegin={beginTutorial}
         onFillSupportDeck={fillTutorialDeck}
         onFillFirstWeek={fillTutorialFirstWeek}
