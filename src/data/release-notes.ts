@@ -10,6 +10,24 @@ export type ReleaseNote = {
 // Add each published release at the beginning. Keep previous entries for the history.
 export const RELEASE_NOTES: readonly ReleaseNote[] = [
   {
+    version: '0.1.2',
+    date: '2026-11-08',
+    title: 'Pアイドル5枚・サポートカード5枚を追加',
+    idolVersionIds: [
+      'saki-ssr-logic5',
+      'sena-ssr-sense3',
+      'tsubame-ssr-anomaly2',
+      'china-ssr-anomaly2',
+      'misuzu-ssr-logic4',
+    ],
+    supportCardIds: ['gkm_0207', 'gkm_0208', 'gkm_0209', 'gkm_0210', 'gkm_0211'],
+    changes: [
+      '画像は準備中です。カードデータは画像の追加前でも利用できます。',
+      'これがあのかぼちゃ……のLv55、ふたりで衣装作りのLv35・40・45は、wikiの数値が未掲載のため選択対象から外しています。',
+      '雨夜燕のH.I.F True Endボーナスを全衣装に反映しました。',
+    ],
+  },
+  {
     version: '0.1.1',
     date: '2026-10-05',
     title: 'Pアイドル・サポートカードを追加',

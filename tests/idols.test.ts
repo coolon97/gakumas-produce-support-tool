@@ -12,6 +12,7 @@ import { normalizeHifSchedule } from '../src/lib/hif-schedule.ts'
 import { compareIdolEntries, normalizeIdolSortKey } from '../src/lib/idol-sort.ts'
 import cardsData from '../data/cards.json'
 import type { SupportCard } from '../src/types/card.ts'
+import pendingImages from '../data/pending-card-images.json'
 
 test('P-idol IDs and portrait filenames use contiguous character-rarity-plan sequences', () => {
   const allIds = new Set<string>()
@@ -26,9 +27,10 @@ test('P-idol IDs and portrait filenames use contiguous character-rarity-plan seq
       allIds.add(version.id)
       sequences.set(prefix, [...(sequences.get(prefix) ?? []), Number(suffix)])
       assert.ok(
-        existsSync(
-          new URL(`../assets/game/PIdol/converted/${version.rarity}/${version.id}.webp`, import.meta.url),
-        ),
+        pendingImages.idols.includes(version.id) ||
+          existsSync(
+            new URL(`../assets/game/PIdol/converted/${version.rarity}/${version.id}.webp`, import.meta.url),
+          ),
         version.id,
       )
     }
@@ -43,8 +45,9 @@ test('P-idol IDs and portrait filenames use contiguous character-rarity-plan seq
       .filter((file) => file.endsWith('.webp'))
       .map((file) => file.slice(0, -5)),
   )
-  assert.equal(portraitIds.length, allIds.size)
-  assert.deepEqual(new Set(portraitIds), allIds)
+  const withImages = new Set([...allIds].filter((id) => !pendingImages.idols.includes(id)))
+  assert.equal(portraitIds.length, withImages.size)
+  assert.deepEqual(new Set(portraitIds), withImages)
 })
 
 test('idol sorting prioritizes each selected field and places undated costumes last', () => {

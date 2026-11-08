@@ -605,6 +605,49 @@
           "vi": 0
         },
         "recommendedEffect": "aggressive"
+      },
+      {
+        "id": "saki-ssr-logic5",
+        "name": "【Agitato】花海咲季",
+        "rarity": "SSR",
+        "plan": "logic",
+        "recommendedEffect": "motivation",
+        "baseStats": {
+          "vo": 120,
+          "da": 125,
+          "vi": 135
+        },
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 25,
+          "vi": 30
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "lessonBonus": {
+          "vo": 19.5,
+          "da": 19.5,
+          "vi": 22.5
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 3,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/10/09"
       }
     ]
   },
@@ -3392,6 +3435,49 @@
           "vi": 1
         },
         "recommendedEffect": "motivation"
+      },
+      {
+        "id": "china-ssr-anomaly2",
+        "name": "【ガラクタロード】倉本千奈",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "recommendedEffect": "fullPower",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 135
+        },
+        "hifTrueStats": {
+          "vo": 20,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 1
+        },
+        "lessonBonus": {
+          "vo": 13,
+          "da": 29,
+          "vi": 24.5
+        },
+        "talentLessonBonus": {
+          "vo": 0,
+          "da": 5,
+          "vi": 3
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/11/06"
       }
     ]
   },
@@ -6093,6 +6179,49 @@
           "vi": 2
         },
         "recommendedEffect": "concentration"
+      },
+      {
+        "id": "sena-ssr-sense3",
+        "name": "【Roar】十王星南",
+        "rarity": "SSR",
+        "plan": "sense",
+        "recommendedEffect": "concentration",
+        "baseStats": {
+          "vo": 175,
+          "da": 125,
+          "vi": 140
+        },
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 5,
+          "vi": 2
+        },
+        "lessonBonus": {
+          "vo": 18,
+          "da": 13,
+          "vi": 26.5
+        },
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 0,
+          "vi": 4
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/10/20"
       }
     ]
   },
@@ -6530,6 +6659,49 @@
           "vi": 2
         },
         "recommendedEffect": "concentration"
+      },
+      {
+        "id": "misuzu-ssr-logic4",
+        "name": "【ガラクタロード】秦谷美鈴",
+        "rarity": "SSR",
+        "plan": "logic",
+        "recommendedEffect": "goodImpression",
+        "baseStats": {
+          "vo": 95,
+          "da": 125,
+          "vi": 140
+        },
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 0,
+          "vi": 5
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 3,
+          "vi": 2
+        },
+        "lessonBonus": {
+          "vo": 31,
+          "da": 13,
+          "vi": 22
+        },
+        "talentLessonBonus": {
+          "vo": 4,
+          "da": 0,
+          "vi": 2
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/11/06"
       }
     ]
   },
@@ -6543,14 +6715,14 @@
         "name": "【学園生活】雨夜燕",
         "plan": "anomaly",
         "baseStats": {
-          "vo": 105,
-          "da": 130,
-          "vi": 100
+          "vo": 115,
+          "da": 140,
+          "vi": 110
         },
         "lessonBonus": {
-          "vo": 17,
-          "da": 22,
-          "vi": 11
+          "vo": 18,
+          "da": 25,
+          "vi": 14
         },
         "rarity": "R",
         "talentLessonBonus": {
@@ -6570,14 +6742,14 @@
         },
         "releaseDate": "2025/11/16",
         "hifTrueStats": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 10,
+          "da": 10,
+          "vi": 10
         },
         "hifTrueLessonBonus": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 1,
+          "da": 3,
+          "vi": 3
         },
         "recommendedEffect": "aggressive"
       },
@@ -6586,14 +6758,14 @@
         "name": "【初志貫徹】雨夜燕",
         "plan": "logic",
         "baseStats": {
-          "vo": 110,
-          "da": 135,
-          "vi": 105
+          "vo": 120,
+          "da": 145,
+          "vi": 115
         },
         "lessonBonus": {
-          "vo": 18,
-          "da": 23,
-          "vi": 12
+          "vo": 19,
+          "da": 26,
+          "vi": 15
         },
         "rarity": "SR",
         "talentLessonBonus": {
@@ -6613,14 +6785,14 @@
         },
         "releaseDate": "2025/11/16",
         "hifTrueStats": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 10,
+          "da": 10,
+          "vi": 10
         },
         "hifTrueLessonBonus": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 1,
+          "da": 3,
+          "vi": 3
         },
         "recommendedEffect": "goodImpression"
       },
@@ -6629,14 +6801,14 @@
         "name": "【理論武装して】雨夜燕",
         "plan": "logic",
         "baseStats": {
-          "vo": 115,
-          "da": 140,
-          "vi": 110
+          "vo": 125,
+          "da": 150,
+          "vi": 120
         },
         "lessonBonus": {
-          "vo": 19,
-          "da": 24,
-          "vi": 13
+          "vo": 20,
+          "da": 27,
+          "vi": 16
         },
         "rarity": "SSR",
         "talentLessonBonus": {
@@ -6656,14 +6828,14 @@
         },
         "releaseDate": "2025/11/16",
         "hifTrueStats": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 10,
+          "da": 10,
+          "vi": 10
         },
         "hifTrueLessonBonus": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 1,
+          "da": 3,
+          "vi": 3
         },
         "recommendedEffect": "motivation"
       },
@@ -6672,14 +6844,14 @@
         "name": "【Campus mode!!】雨夜燕",
         "plan": "sense",
         "baseStats": {
-          "vo": 115,
-          "da": 140,
-          "vi": 110
+          "vo": 125,
+          "da": 150,
+          "vi": 120
         },
         "lessonBonus": {
-          "vo": 19,
-          "da": 24,
-          "vi": 13
+          "vo": 20,
+          "da": 27,
+          "vi": 16
         },
         "rarity": "SSR",
         "talentLessonBonus": {
@@ -6699,14 +6871,14 @@
         },
         "releaseDate": "2025/12/26",
         "hifTrueStats": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 10,
+          "da": 10,
+          "vi": 10
         },
         "hifTrueLessonBonus": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 1,
+          "da": 3,
+          "vi": 3
         },
         "recommendedEffect": "goodCondition"
       },
@@ -6716,14 +6888,14 @@
         "rarity": "SSR",
         "plan": "anomaly",
         "baseStats": {
-          "vo": 115,
-          "da": 140,
-          "vi": 110
+          "vo": 125,
+          "da": 150,
+          "vi": 120
         },
         "lessonBonus": {
-          "vo": 19,
-          "da": 24,
-          "vi": 13
+          "vo": 20,
+          "da": 27,
+          "vi": 16
         },
         "talentLessonBonus": {
           "vo": 2,
@@ -6742,16 +6914,59 @@
         },
         "releaseDate": "2026/07/31",
         "hifTrueStats": {
-          "vo": 0,
-          "da": 0,
-          "vi": 0
+          "vo": 10,
+          "da": 10,
+          "vi": 10
         },
         "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 3
+        },
+        "recommendedEffect": "fullPower"
+      },
+      {
+        "id": "tsubame-ssr-anomaly2",
+        "name": "【ガラクタロード】雨夜燕",
+        "rarity": "SSR",
+        "plan": "anomaly",
+        "recommendedEffect": "aggressive",
+        "baseStats": {
+          "vo": 125,
+          "da": 150,
+          "vi": 120
+        },
+        "hifTrueStats": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "hifTrueLessonBonus": {
+          "vo": 1,
+          "da": 3,
+          "vi": 3
+        },
+        "lessonBonus": {
+          "vo": 20,
+          "da": 27,
+          "vi": 16
+        },
+        "talentLessonBonus": {
+          "vo": 2,
+          "da": 4,
+          "vi": 0
+        },
+        "trainingSpRate": {
+          "vo": 15,
+          "da": 15,
+          "vi": 15
+        },
+        "talentSpRate": {
           "vo": 0,
           "da": 0,
           "vi": 0
         },
-        "recommendedEffect": "fullPower"
+        "releaseDate": "2026/10/28"
       }
     ]
   }

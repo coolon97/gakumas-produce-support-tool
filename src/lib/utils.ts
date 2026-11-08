@@ -293,6 +293,7 @@ export function getSkillTriggerContext(ability: SupportAbilitySpec): SkillTrigge
   const conditions = getAbilityConditions(ability)
   if (
     conditions.some((condition) => condition.type === 'card_name_contains') ||
+    conditions.some((condition) => condition.type === 'card_plan_is') ||
     (ability.activation.event === 'exam_end' &&
       conditions.some((condition) => condition.type === 'owned_skill_cards_gte'))
   ) {

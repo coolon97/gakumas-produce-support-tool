@@ -39,6 +39,8 @@ export function evaluateHifPredicate(
         return context.skillCard ? context.skillCard.category === condition.value : undefined
       if (condition.type === 'card_rarity_is')
         return context.skillCard ? context.skillCard.rarity === condition.value : undefined
+      if (condition.type === 'card_plan_is')
+        return context.skillCard?.plan === undefined ? undefined : context.skillCard.plan === condition.value
       if (condition.type === 'card_name_contains')
         return context.skillCard ? context.skillCard.name.includes(condition.value) : undefined
       return undefined

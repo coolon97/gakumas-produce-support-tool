@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import pendingImages from '../data/pending-card-images.json'
 import { test } from 'node:test'
 import { existsSync } from 'node:fs'
 import { RELEASE_NOTES } from '../src/data/release-notes.ts'
@@ -28,8 +29,8 @@ test('first access shows releases; closing persists read state across revisits',
 test('an update only displays unread releases, including skipped versions, without forgetting history', () => {
   const storage = memoryStorage()
   markReleaseNotesRead(RELEASE_NOTES, storage)
-  const next = { ...RELEASE_NOTES[0], version: '0.1.2' }
-  const newest = { ...next, version: '0.1.3' }
+  const next = { ...RELEASE_NOTES[0], version: 'test-next' }
+  const newest = { ...next, version: 'test-newest' }
   const releases = [newest, next, ...RELEASE_NOTES]
   assert.deepEqual(getUnreadReleaseNotes(storage, releases), [newest, next])
   markReleaseNotesRead([newest], storage)
@@ -64,21 +65,27 @@ test('release acknowledgement leaves saved inputs and tutorial progress intact',
   assert.equal(storage.getItem('gakumas:app-inputs'), 'saved deck and schedule')
 })
 
-test('published notes identify all four added cards and their bundled images at the current version', () => {
+test('release notes identify added cards and either bundled or explicitly pending user images', () => {
   assert.equal(RELEASE_NOTES[0].version, manifest.version)
   assert.equal(new Set(RELEASE_NOTES.map((release) => release.version)).size, RELEASE_NOTES.length)
-  assert.equal(RELEASE_NOTES[0].idolVersionIds.length, 2)
-  assert.equal(RELEASE_NOTES[0].supportCardIds.length, 2)
+  assert.equal(RELEASE_NOTES[0].idolVersionIds.length, 5)
+  assert.equal(RELEASE_NOTES[0].supportCardIds.length, 5)
   for (const release of RELEASE_NOTES) {
     for (const id of release.idolVersionIds) {
       const idol = idols.flatMap((entry) => entry.versions).find((entry) => entry.id === id)
       assert.ok(idol, 'P idol in notes must exist in the catalog')
-      assert.ok(existsSync('assets/game/PIdol/converted/' + idol.rarity + '/' + id + '.webp'))
+      assert.ok(
+        pendingImages.idols.includes(id) ||
+          existsSync('assets/game/PIdol/converted/' + idol.rarity + '/' + id + '.webp'),
+      )
     }
     for (const id of release.supportCardIds) {
       const card = cards.find((entry) => entry.id === id)
       assert.ok(card, 'Support card in notes must exist in the catalog')
-      assert.ok(existsSync('assets/game/' + card.imageUrl!.slice('local:'.length)))
+      assert.ok(
+        pendingImages.supportCards.includes(id) ||
+          existsSync('assets/game/' + card.imageUrl!.slice('local:'.length)),
+      )
     }
   }
 })

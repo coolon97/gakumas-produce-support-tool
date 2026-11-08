@@ -117,6 +117,8 @@ export interface CalculatorResult {
 export interface ProduceSkillCardState {
   id: string
   name: string
+  /** Unspecified for simulated generic cards whose plan is not known. */
+  plan?: 'sense' | 'logic' | 'anomaly' | 'free'
   source:
     | 'idol'
     | 'basic'
@@ -131,7 +133,16 @@ export interface ProduceSkillCardState {
     | 'custom_item'
   rarity?: 'SSR' | 'SR' | 'R'
   category?: 'active' | 'mental'
-  effectTags: Array<'energy' | 'motivation' | 'goodImpression' | 'goodCondition' | 'preservation' | 'concentration' | 'fullPower' | 'aggressive'>
+  effectTags: Array<
+    | 'energy'
+    | 'motivation'
+    | 'goodImpression'
+    | 'goodCondition'
+    | 'preservation'
+    | 'concentration'
+    | 'fullPower'
+    | 'aggressive'
+  >
   upgraded: boolean
 }
 
