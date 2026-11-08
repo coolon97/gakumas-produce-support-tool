@@ -53,16 +53,38 @@ test('November Wiki delta adds five costumes and five supports with bundled user
   assert.equal(findIdolVersion('misuzu', 'misuzu-ssr-logic4')!.recommendedEffect, 'goodImpression')
 })
 
-test('unpublished Wiki values are excluded from level cycling rather than inferred', () => {
+test('provisional missing-level values follow matching unlock-level curves and enable all five levels', () => {
   const sr = cards.find((c) => c.id === 'gkm_0207')!
   const ssr = cards.find((c) => c.id === 'gkm_0208')!
-  assert.deepEqual(sr.availableLevels, [30, 50])
-  assert.deepEqual(ssr.availableLevels, [40, 45, 50, 60])
-  assert.equal(getNextDeckCardLevel(50, 50, sr.availableLevels), 30)
-  assert.equal(getNextDeckCardLevel(50, 60, ssr.availableLevels), 60)
-  assert.equal(getPrimaryAbilityValue(sr.skills[3].ability, 30), 13)
-  assert.equal(getPrimaryAbilityValue(sr.skills[3].ability, 50), 26)
-  assert.equal(getPrimaryAbilityValue(ssr.skills[4].ability, 60), 24)
+  const existing = cards.find((c) => c.id === 'gkm_0121')!
+  assert.deepEqual(
+    existing.skills.map((s) => getPrimaryAbilityValue(s.ability, 50)),
+    [59, 28, 83.1, 3, 15, 75],
+  )
+  assert.equal(sr.availableLevels, undefined)
+  assert.equal(ssr.availableLevels, undefined)
+  const srLevels = [30, 35, 40, 45, 50]
+  const ssrLevels = [40, 45, 50, 55, 60]
+  assert.deepEqual(
+    srLevels.map((lv) => getNextDeckCardLevel(lv, 50, sr.availableLevels)),
+    [35, 40, 45, 50, 30],
+  )
+  assert.deepEqual(
+    ssrLevels.map((lv) => getNextDeckCardLevel(lv, 60, ssr.availableLevels)),
+    [45, 50, 55, 60, 40],
+  )
+  assert.deepEqual(
+    srLevels.map((lv) => getPrimaryAbilityValue(sr.skills[3].ability, lv)),
+    [13, 13, 13, 13, 26],
+  )
+  assert.deepEqual(
+    srLevels.map((lv) => getPrimaryAbilityValue(sr.skills[4].ability, lv)),
+    [8, 8, 8, 16, 16],
+  )
+  assert.deepEqual(
+    ssrLevels.map((lv) => getPrimaryAbilityValue(ssr.skills[4].ability, lv)),
+    [17, 17, 17, 17, 24],
+  )
 })
 
 test('Tsubame HIF True End is included once in every costume, including older pages without its row', () => {

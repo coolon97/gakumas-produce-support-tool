@@ -43520,6 +43520,10 @@
                   "value": 55
                 },
                 {
+                  "lv": 50,
+                  "value": 59
+                },
+                {
                   "lv": 55,
                   "value": 62
                 },
@@ -43569,6 +43573,10 @@
                   "value": 21
                 },
                 {
+                  "lv": 50,
+                  "value": 28
+                },
+                {
                   "lv": 55,
                   "value": 28
                 },
@@ -43612,6 +43620,10 @@
                 {
                   "lv": 45,
                   "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
                 },
                 {
                   "lv": 55,
@@ -43664,6 +43676,10 @@
                 },
                 {
                   "lv": 45,
+                  "value": 3
+                },
+                {
+                  "lv": 50,
                   "value": 3
                 },
                 {
@@ -43727,6 +43743,10 @@
                   "value": 15
                 },
                 {
+                  "lv": 50,
+                  "value": 15
+                },
+                {
                   "lv": 55,
                   "value": 15
                 },
@@ -43770,6 +43790,10 @@
                 },
                 {
                   "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
                   "value": 75
                 },
                 {
@@ -74806,6 +74830,18 @@
                   "value": 13
                 },
                 {
+                  "lv": 35,
+                  "value": 13
+                },
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
                   "lv": 50,
                   "value": 26
                 }
@@ -74856,6 +74892,18 @@
                 {
                   "lv": 30,
                   "value": 8
+                },
+                {
+                  "lv": 35,
+                  "value": 8
+                },
+                {
+                  "lv": 40,
+                  "value": 8
+                },
+                {
+                  "lv": 45,
+                  "value": 16
                 },
                 {
                   "lv": 50,
@@ -74978,10 +75026,6 @@
         },
         "rarity": "SR"
       }
-    ],
-    "availableLevels": [
-      30,
-      50
     ],
     "imageUrl": "local:Support/converted/SR/gkm_0207.webp",
     "releaseDate": "2026/10/09"
@@ -75245,6 +75289,10 @@
                   "value": 17
                 },
                 {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
                   "lv": 60,
                   "value": 24
                 }
@@ -75369,12 +75417,6 @@
         },
         "rarity": "SSR"
       }
-    ],
-    "availableLevels": [
-      40,
-      45,
-      50,
-      60
     ],
     "imageUrl": "local:Support/converted/SSR/gkm_0208.webp",
     "releaseDate": "2026/10/09"
