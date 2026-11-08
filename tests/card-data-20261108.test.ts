@@ -12,27 +12,28 @@ import { DEFAULT_PRODUCE_CONFIG, getNextDeckCardLevel } from '../src/store/produ
 import { getParameterSortTriggerSetting } from '../src/lib/support-card-parameter-total.ts'
 
 const cards = cardsData as SupportCard[]
-test('November Wiki delta adds five costumes and five supports with explicitly pending user images', () => {
+test('November Wiki delta adds five costumes and five supports with bundled user images', () => {
   assert.equal(IDOLS.flatMap((i) => i.versions).length, 160)
   assert.equal(cards.length, 211)
-  assert.deepEqual(pendingImages.idols, [
+  assert.deepEqual(pendingImages, { idols: [], supportCards: [] })
+  const addedIdols = [
     'saki-ssr-logic5',
     'sena-ssr-sense3',
     'tsubame-ssr-anomaly2',
     'china-ssr-anomaly2',
     'misuzu-ssr-logic4',
-  ])
-  assert.equal(pendingImages.supportCards.length, 5)
-  for (const id of pendingImages.idols) {
+  ]
+  const addedSupports = ['gkm_0207', 'gkm_0208', 'gkm_0209', 'gkm_0210', 'gkm_0211']
+  for (const id of addedIdols) {
     const version = IDOLS.flatMap((i) => i.versions).find((v) => v.id === id)!
     assert.ok(version)
-    assert.ok(!existsSync(`assets/game/PIdol/converted/${version.rarity}/${id}.webp`))
+    assert.ok(existsSync(`assets/game/PIdol/converted/${version.rarity}/${id}.webp`))
   }
-  for (const id of pendingImages.supportCards) {
+  for (const id of addedSupports) {
     const card = cards.find((c) => c.id === id)!
     assert.ok(card)
     assert.equal(card.skills.length, 6)
-    assert.ok(!existsSync(`assets/game/${card.imageUrl!.slice(6)}`))
+    assert.ok(existsSync(`assets/game/${card.imageUrl!.slice(6)}`))
     const levels = card.availableLevels ?? [
       card.maxLevel - 20,
       card.maxLevel - 15,

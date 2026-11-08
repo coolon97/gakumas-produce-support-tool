@@ -22,7 +22,6 @@ export const RELEASE_NOTES: readonly ReleaseNote[] = [
     ],
     supportCardIds: ['gkm_0207', 'gkm_0208', 'gkm_0209', 'gkm_0210', 'gkm_0211'],
     changes: [
-      '画像は準備中です。カードデータは画像の追加前でも利用できます。',
       'これがあのかぼちゃ……のLv55、ふたりで衣装作りのLv35・40・45は、wikiの数値が未掲載のため選択対象から外しています。',
       '雨夜燕のH.I.F True Endボーナスを全衣装に反映しました。',
     ],

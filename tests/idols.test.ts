@@ -12,7 +12,9 @@ import { normalizeHifSchedule } from '../src/lib/hif-schedule.ts'
 import { compareIdolEntries, normalizeIdolSortKey } from '../src/lib/idol-sort.ts'
 import cardsData from '../data/cards.json'
 import type { SupportCard } from '../src/types/card.ts'
-import pendingImages from '../data/pending-card-images.json'
+import pendingImagesData from '../data/pending-card-images.json'
+
+const pendingImages: { idols: string[]; supportCards: string[] } = pendingImagesData
 
 test('P-idol IDs and portrait filenames use contiguous character-rarity-plan sequences', () => {
   const allIds = new Set<string>()

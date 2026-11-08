@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict'
-import pendingImages from '../data/pending-card-images.json'
+import pendingImagesData from '../data/pending-card-images.json'
+
+const pendingImages: { idols: string[]; supportCards: string[] } = pendingImagesData
 import { test } from 'node:test'
 import { existsSync } from 'node:fs'
 import { RELEASE_NOTES } from '../src/data/release-notes.ts'
