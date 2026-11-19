@@ -530,9 +530,21 @@ function PlanFilterIcon({ plan }: { plan: IdolPlan }) {
 }
 
 function IdolFilterIcon({ idol }: { idol: IdolData }) {
+  const imageUrl =
+    IDOL_ICON_URLS[idol.id] ?? idol.versions.map((version) => getIdolImageUrl(version.id)).find(Boolean)
+  if (!imageUrl) {
+    return (
+      <span
+        aria-hidden="true"
+        className="inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-gray-100 text-[10px] text-gray-600"
+      >
+        {idol.firstName.slice(0, 1)}
+      </span>
+    )
+  }
   return (
     <img
-      src={IDOL_ICON_URLS[idol.id]}
+      src={imageUrl}
       alt=""
       className="h-4 w-4 rounded-full object-cover"
       loading="lazy"

@@ -13,9 +13,8 @@ import { getParameterSortTriggerSetting } from '../src/lib/support-card-paramete
 
 const cards = cardsData as SupportCard[]
 test('November Wiki delta adds five costumes and five supports with bundled user images', () => {
-  assert.equal(IDOLS.flatMap((i) => i.versions).length, 160)
-  assert.equal(cards.length, 211)
-  assert.deepEqual(pendingImages, { idols: [], supportCards: [] })
+  assert.ok(IDOLS.flatMap((i) => i.versions).length >= 160)
+  assert.ok(cards.length >= 211)
   const addedIdols = [
     'saki-ssr-logic5',
     'sena-ssr-sense3',
@@ -24,6 +23,8 @@ test('November Wiki delta adds five costumes and five supports with bundled user
     'misuzu-ssr-logic4',
   ]
   const addedSupports = ['gkm_0207', 'gkm_0208', 'gkm_0209', 'gkm_0210', 'gkm_0211']
+  assert.ok(addedIdols.every((id) => !pendingImages.idols.includes(id)))
+  assert.ok(addedSupports.every((id) => !pendingImages.supportCards.includes(id)))
   for (const id of addedIdols) {
     const version = IDOLS.flatMap((i) => i.versions).find((v) => v.id === id)!
     assert.ok(version)

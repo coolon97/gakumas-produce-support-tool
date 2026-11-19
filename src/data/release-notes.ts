@@ -10,6 +10,14 @@ export type ReleaseNote = {
 // Add each published release at the beginning. Keep previous entries for the history.
 export const RELEASE_NOTES: readonly ReleaseNote[] = [
   {
+    version: '0.1.3',
+    date: '2026-11-19',
+    title: '氷渡香名江と新規サポートカードを追加',
+    idolVersionIds: ['kanae-r-sense1', 'kanae-sr-sense1', 'kanae-ssr-sense1'],
+    supportCardIds: ['gkm_0212', 'gkm_0213', 'gkm_0214'],
+    changes: ['新規6枚の画像は準備中です。画像の追加前でもカードを選択・編成できます。'],
+  },
+  {
     version: '0.1.2',
     date: '2026-11-08',
     title: 'Pアイドル5枚・サポートカード5枚を追加',

@@ -1,4 +1,12 @@
 {
-  "idols": [],
-  "supportCards": []
+  "idols": [
+    "kanae-r-sense1",
+    "kanae-sr-sense1",
+    "kanae-ssr-sense1"
+  ],
+  "supportCards": [
+    "gkm_0212",
+    "gkm_0213",
+    "gkm_0214"
+  ]
 }

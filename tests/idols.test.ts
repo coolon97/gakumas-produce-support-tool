@@ -108,8 +108,8 @@ test('secondary idol sort priorities override newer releases and retain date ord
   assert.deepEqual(sorted('rarity'), ['logic-newest', 'ssr-new', 'ssr-old', 'ssr-other-idol', 'sr-new'])
 })
 
-test('all 13 characters and current costumes have unique IDs, verified numbers, talent curves and local illustrations when available', () => {
-  assert.equal(IDOLS.length, 13)
+test('all 14 characters and current costumes have unique IDs, verified numbers, talent curves and local illustrations when available', () => {
+  assert.equal(IDOLS.length, 14)
   const versions = IDOLS.flatMap((i) => i.versions)
   assert.ok(versions.length >= 153)
   assert.equal(new Set(versions.map((v) => v.id)).size, versions.length)

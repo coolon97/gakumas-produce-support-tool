@@ -6969,5 +6969,141 @@
         "releaseDate": "2026/10/28"
       }
     ]
+  },
+  {
+    "id": "kanae",
+    "firstName": "香名江",
+    "lastName": "氷渡",
+    "versions": [
+      {
+        "id": "kanae-r-sense1",
+        "name": "【学園生活】氷渡香名江",
+        "rarity": "R",
+        "plan": "sense",
+        "recommendedEffect": "concentration",
+        "baseStats": {
+          "vo": 85,
+          "da": 85,
+          "vi": 95
+        },
+        "lessonBonus": {
+          "vo": 20,
+          "da": 8,
+          "vi": 22
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/11/16"
+      },
+      {
+        "id": "kanae-sr-sense1",
+        "name": "【憧れを抱いて一歩ずつ】氷渡香名江",
+        "rarity": "SR",
+        "plan": "sense",
+        "recommendedEffect": "goodCondition",
+        "baseStats": {
+          "vo": 90,
+          "da": 90,
+          "vi": 100
+        },
+        "lessonBonus": {
+          "vo": 22,
+          "da": 9,
+          "vi": 25
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/11/16"
+      },
+      {
+        "id": "kanae-ssr-sense1",
+        "name": "【メタモルフォーゼ】氷渡香名江",
+        "rarity": "SSR",
+        "plan": "sense",
+        "recommendedEffect": "concentration",
+        "baseStats": {
+          "vo": 95,
+          "da": 95,
+          "vi": 105
+        },
+        "lessonBonus": {
+          "vo": 22,
+          "da": 12,
+          "vi": 25
+        },
+        "talentLessonBonus": {
+          "vo": 3,
+          "da": 0,
+          "vi": 5
+        },
+        "trainingSpRate": {
+          "vo": 10,
+          "da": 10,
+          "vi": 10
+        },
+        "talentSpRate": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueStats": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "hifTrueLessonBonus": {
+          "vo": 0,
+          "da": 0,
+          "vi": 0
+        },
+        "releaseDate": "2026/11/16"
+      }
+    ]
   }
 ]
