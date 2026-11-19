@@ -43520,6 +43520,10 @@
                   "value": 55
                 },
                 {
+                  "lv": 50,
+                  "value": 59
+                },
+                {
                   "lv": 55,
                   "value": 62
                 },
@@ -43569,6 +43573,10 @@
                   "value": 21
                 },
                 {
+                  "lv": 50,
+                  "value": 28
+                },
+                {
                   "lv": 55,
                   "value": 28
                 },
@@ -43612,6 +43620,10 @@
                 {
                   "lv": 45,
                   "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
                 },
                 {
                   "lv": 55,
@@ -43664,6 +43676,10 @@
                 },
                 {
                   "lv": 45,
+                  "value": 3
+                },
+                {
+                  "lv": 50,
                   "value": 3
                 },
                 {
@@ -43727,6 +43743,10 @@
                   "value": 15
                 },
                 {
+                  "lv": 50,
+                  "value": 15
+                },
+                {
                   "lv": 55,
                   "value": 15
                 },
@@ -43770,6 +43790,10 @@
                 },
                 {
                   "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
                   "value": 75
                 },
                 {
@@ -74606,5 +74630,3429 @@
     ],
     "imageUrl": "local:Support/converted/SR/gkm_0206.webp",
     "releaseDate": "2026/09/30"
+  },
+  {
+    "id": "gkm_0207",
+    "name": "ふたりで衣装作り",
+    "rarity": "SR",
+    "type": "dance",
+    "plan": "logic",
+    "maxLevel": 50,
+    "skills": [
+      {
+        "id": "initial_da_0",
+        "name": "初期Da",
+        "description": "初期ダンス上昇+21(49)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "initial",
+              "stat": "da",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 21
+                },
+                {
+                  "lv": 30,
+                  "value": 37
+                },
+                {
+                  "lv": 35,
+                  "value": 40
+                },
+                {
+                  "lv": 40,
+                  "value": 43
+                },
+                {
+                  "lv": 45,
+                  "value": 46
+                },
+                {
+                  "lv": 50,
+                  "value": 49
+                }
+              ],
+              "fallback": 49
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ダンスSPレッスン発生率+10.5%(21%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "dance",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 10.5
+                },
+                {
+                  "lv": 30,
+                  "value": 10.5
+                },
+                {
+                  "lv": 35,
+                  "value": 21
+                },
+                {
+                  "lv": 40,
+                  "value": 21
+                },
+                {
+                  "lv": 45,
+                  "value": 21
+                },
+                {
+                  "lv": 50,
+                  "value": 21
+                }
+              ],
+              "fallback": 21
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのレッスンサポート発生率を+2%増加",
+        "description": "このサポートカードのレッスンサポート発生率を+2%増加(100%)",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "lesson",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 59.2
+                },
+                {
+                  "lv": 35,
+                  "value": 69.4
+                },
+                {
+                  "lv": 40,
+                  "value": 79.6
+                },
+                {
+                  "lv": 45,
+                  "value": 89.8
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "da_bonus_3",
+        "name": "Da上昇",
+        "description": "相談選択時、ダンス上昇+13(26)(プロデュース中2回)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "consultation_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "da",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 13
+                },
+                {
+                  "lv": 35,
+                  "value": 13
+                },
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
+                  "lv": 50,
+                  "value": 26
+                }
+              ],
+              "fallback": 26
+            }
+          }
+        }
+      },
+      {
+        "id": "da_bonus_4",
+        "name": "Da上昇",
+        "description": "スキルカード獲得時、所持しているやる気効果のスキルカードが8枚以上の場合、ダンス上昇+8(16)(プロデュース中4回)",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "owned_effect_tag_cards_gte",
+              "tag": "motivation",
+              "value": 8
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "da",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 8
+                },
+                {
+                  "lv": 35,
+                  "value": 8
+                },
+                {
+                  "lv": 40,
+                  "value": 8
+                },
+                {
+                  "lv": 45,
+                  "value": 16
+                },
+                {
+                  "lv": 50,
+                  "value": 16
+                }
+              ],
+              "fallback": 16
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 50
+                },
+                {
+                  "lv": 35,
+                  "value": 50
+                },
+                {
+                  "lv": 40,
+                  "value": 75
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ダンス上昇+15"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "お手製ぴったり衣装",
+        "effect": "やる気効果のスキルカード強化時、ダンスが700以上の場合、 ・ダンス上昇+20 ・Pポイント+10 ・（プロデュース中3回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_upgraded"
+          },
+          "predicate": {
+            "type": "all",
+            "predicates": [
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "effect_tag_is",
+                  "value": "motivation"
+                }
+              },
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "stat_gte",
+                  "stat": "da",
+                  "value": 700
+                }
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "da",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 20
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 3
+            }
+          ]
+        },
+        "rarity": "SR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SR/gkm_0207.webp",
+    "releaseDate": "2026/10/09"
+  },
+  {
+    "id": "gkm_0208",
+    "name": "これがあのかぼちゃ……",
+    "rarity": "SSR",
+    "type": "visual",
+    "plan": "logic",
+    "maxLevel": 60,
+    "skills": [
+      {
+        "id": "initial_vi_0",
+        "name": "初期Vi",
+        "description": "初期ビジュアル上昇+26(65)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "initial",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 26
+                },
+                {
+                  "lv": 40,
+                  "value": 52
+                },
+                {
+                  "lv": 45,
+                  "value": 55
+                },
+                {
+                  "lv": 50,
+                  "value": 59
+                },
+                {
+                  "lv": 55,
+                  "value": 62
+                },
+                {
+                  "lv": 60,
+                  "value": 65
+                }
+              ],
+              "fallback": 65
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ビジュアルSPレッスン発生率+14%(28%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "visual",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 14
+                },
+                {
+                  "lv": 40,
+                  "value": 21
+                },
+                {
+                  "lv": 45,
+                  "value": 21
+                },
+                {
+                  "lv": 50,
+                  "value": 28
+                },
+                {
+                  "lv": 55,
+                  "value": 28
+                },
+                {
+                  "lv": 60,
+                  "value": 28
+                }
+              ],
+              "fallback": 28
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を1.7%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を1.7%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 66.1
+                },
+                {
+                  "lv": 45,
+                  "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
+                },
+                {
+                  "lv": 55,
+                  "value": 91.5
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_3",
+        "name": "Vi上昇",
+        "description": "ビジュアルSPレッスン終了時、ビジュアル上昇+9(17)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "visual"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                },
+                {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
+                  "lv": 60,
+                  "value": 17
+                }
+              ],
+              "fallback": 17
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_4",
+        "name": "Vi上昇",
+        "description": "スキルカードカスタマイズ時、ビジュアル上昇+12(24)（プロデュース中3回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_customized"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 3
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 17
+                },
+                {
+                  "lv": 45,
+                  "value": 17
+                },
+                {
+                  "lv": 50,
+                  "value": 17
+                },
+                {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
+                  "lv": 60,
+                  "value": 24
+                }
+              ],
+              "fallback": 24
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 50
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 75
+                },
+                {
+                  "lv": 55,
+                  "value": 75
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ビジュアル上昇+20"
+      },
+      {
+        "unlock": "Lv40",
+        "effect": "ランダムなスキルカードを強化"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "花海ファームランタン",
+        "effect": "やる気効果のスキルカード強化時、ビジュアルが900以上の場合、 ・Pポイント+40 ・ビジュアル上昇+30 ・（プロデュース中2回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_upgraded"
+          },
+          "predicate": {
+            "type": "all",
+            "predicates": [
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "effect_tag_is",
+                  "value": "motivation"
+                }
+              },
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "stat_gte",
+                  "stat": "vi",
+                  "value": 900
+                }
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vi",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 30
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ]
+        },
+        "rarity": "SSR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SSR/gkm_0208.webp",
+    "releaseDate": "2026/10/09"
+  },
+  {
+    "id": "gkm_0209",
+    "name": "威風堂々・お昼寝タイム",
+    "rarity": "SR",
+    "type": "visual",
+    "plan": "sense",
+    "maxLevel": 50,
+    "skills": [
+      {
+        "id": "initial_vi_0",
+        "name": "初期Vi",
+        "description": "初期ビジュアル上昇+21(49)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "initial",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 21
+                },
+                {
+                  "lv": 30,
+                  "value": 37
+                },
+                {
+                  "lv": 35,
+                  "value": 40
+                },
+                {
+                  "lv": 40,
+                  "value": 43
+                },
+                {
+                  "lv": 45,
+                  "value": 46
+                },
+                {
+                  "lv": 50,
+                  "value": 49
+                }
+              ],
+              "fallback": 49
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ビジュアルSPレッスン発生率+10.5%(21%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "visual",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 10.5
+                },
+                {
+                  "lv": 30,
+                  "value": 10.5
+                },
+                {
+                  "lv": 35,
+                  "value": 21
+                },
+                {
+                  "lv": 40,
+                  "value": 21
+                },
+                {
+                  "lv": 45,
+                  "value": 21
+                },
+                {
+                  "lv": 50,
+                  "value": 21
+                }
+              ],
+              "fallback": 21
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を2%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を2%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 59.2
+                },
+                {
+                  "lv": 35,
+                  "value": 69.4
+                },
+                {
+                  "lv": 40,
+                  "value": 79.6
+                },
+                {
+                  "lv": 45,
+                  "value": 89.8
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_3",
+        "name": "Vi上昇",
+        "description": "ビジュアルSPレッスン終了時、ビジュアル上昇+7(13)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "visual"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 7
+                },
+                {
+                  "lv": 35,
+                  "value": 7
+                },
+                {
+                  "lv": 40,
+                  "value": 7
+                },
+                {
+                  "lv": 45,
+                  "value": 7
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                }
+              ],
+              "fallback": 13
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_4",
+        "name": "Vi上昇",
+        "description": "活動支給・差し入れ選択時、ビジュアル上昇+13(26)（プロデュース中2回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 13
+                },
+                {
+                  "lv": 35,
+                  "value": 13
+                },
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 26
+                },
+                {
+                  "lv": 50,
+                  "value": 26
+                }
+              ],
+              "fallback": 26
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 50
+                },
+                {
+                  "lv": 35,
+                  "value": 50
+                },
+                {
+                  "lv": 40,
+                  "value": 75
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ビジュアル上昇+15"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "ねぎらいコーヒー",
+        "effect": "活動支給・差し入れ選択時、ビジュアルが700以上の場合、 ・Pポイント+25 ・ビジュアル上昇+10 ・（プロデュース中2回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "stat_gte",
+              "stat": "vi",
+              "value": 700
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vi",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 10
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ]
+        },
+        "rarity": "SR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SR/gkm_0209.webp",
+    "releaseDate": "2026/10/20"
+  },
+  {
+    "id": "gkm_0210",
+    "name": "デ、デートのお誘い！？",
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "sense",
+    "maxLevel": 60,
+    "skills": [
+      {
+        "id": "lesson_bonus_0",
+        "name": "レッスンボーナス",
+        "description": "ボーカルパラメータボーナス+2.5%(8.5%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_param_bonus",
+              "target": "vocal",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 2.5
+                },
+                {
+                  "lv": 40,
+                  "value": 6.5
+                },
+                {
+                  "lv": 45,
+                  "value": 7
+                },
+                {
+                  "lv": 50,
+                  "value": 7.5
+                },
+                {
+                  "lv": 55,
+                  "value": 8
+                },
+                {
+                  "lv": 60,
+                  "value": 8.5
+                }
+              ],
+              "fallback": 8.5
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_1",
+        "name": "Vo上昇",
+        "description": "活動支給・差し入れ選択時、ボーカル上昇+19(38)（プロデュース中2回）",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 19
+                },
+                {
+                  "lv": 40,
+                  "value": 28
+                },
+                {
+                  "lv": 45,
+                  "value": 28
+                },
+                {
+                  "lv": 50,
+                  "value": 38
+                },
+                {
+                  "lv": 55,
+                  "value": 38
+                },
+                {
+                  "lv": 60,
+                  "value": 38
+                }
+              ],
+              "fallback": 38
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を1.7%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を1.7%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 66.1
+                },
+                {
+                  "lv": 45,
+                  "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
+                },
+                {
+                  "lv": 55,
+                  "value": 91.5
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_3",
+        "name": "Vo上昇",
+        "description": "ボーカルSPレッスン終了時、ボーカル上昇+9(17)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "vocal"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                },
+                {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
+                  "lv": 60,
+                  "value": 17
+                }
+              ],
+              "fallback": 17
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_4",
+        "name": "Vo上昇",
+        "description": "スキルカード獲得時、所持している集中効果のスキルカードが8枚以上の場合、ボーカル上昇+11(22)（プロデュース中4回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "owned_effect_tag_cards_gte",
+              "tag": "concentration",
+              "value": 8
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 16
+                },
+                {
+                  "lv": 45,
+                  "value": 16
+                },
+                {
+                  "lv": 50,
+                  "value": 16
+                },
+                {
+                  "lv": 55,
+                  "value": 16
+                },
+                {
+                  "lv": 60,
+                  "value": 22
+                }
+              ],
+              "fallback": 22
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 50
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 75
+                },
+                {
+                  "lv": 55,
+                  "value": 75
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ボーカル上昇+20"
+      },
+      {
+        "unlock": "Lv40",
+        "effect": "ランダムなスキルカードを強化"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "お誘いチケット",
+        "effect": "活動支給・差し入れ選択時、ボーカルが700以上の場合、 ・体力回復4 ・ボーカル上昇+10 ・（プロデュース中4回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "stat_gte",
+              "stat": "vo",
+              "value": 700
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vo",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 10
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ]
+        },
+        "rarity": "SSR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SSR/gkm_0210.webp",
+    "releaseDate": "2026/10/20"
+  },
+  {
+    "id": "gkm_0211",
+    "name": "みんなも読んでみてっ！",
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "logic",
+    "maxLevel": 60,
+    "skills": [
+      {
+        "id": "lesson_bonus_0",
+        "name": "レッスンボーナス",
+        "description": "ボーカルパラメータボーナス+2.5%(8.5%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_param_bonus",
+              "target": "vocal",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 2.5
+                },
+                {
+                  "lv": 40,
+                  "value": 6.5
+                },
+                {
+                  "lv": 45,
+                  "value": 7
+                },
+                {
+                  "lv": 50,
+                  "value": 7.5
+                },
+                {
+                  "lv": 55,
+                  "value": 8
+                },
+                {
+                  "lv": 60,
+                  "value": 8.5
+                }
+              ],
+              "fallback": 8.5
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ボーカルSPレッスン発生率+14%(28%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "vocal",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 14
+                },
+                {
+                  "lv": 40,
+                  "value": 21
+                },
+                {
+                  "lv": 45,
+                  "value": 21
+                },
+                {
+                  "lv": 50,
+                  "value": 28
+                },
+                {
+                  "lv": 55,
+                  "value": 28
+                },
+                {
+                  "lv": 60,
+                  "value": 28
+                }
+              ],
+              "fallback": 28
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を1.7%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を1.7%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 66.1
+                },
+                {
+                  "lv": 45,
+                  "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
+                },
+                {
+                  "lv": 55,
+                  "value": 91.5
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_3",
+        "name": "Vo上昇",
+        "description": "ボーカルSPレッスン終了時、ボーカル上昇+9(17)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "vocal"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                },
+                {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
+                  "lv": 60,
+                  "value": 17
+                }
+              ],
+              "fallback": 17
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_4",
+        "name": "Vo上昇",
+        "description": "スキルカード削除時、ボーカル上昇+10(20)（プロデュース中4回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_deleted"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 15
+                },
+                {
+                  "lv": 45,
+                  "value": 15
+                },
+                {
+                  "lv": 50,
+                  "value": 15
+                },
+                {
+                  "lv": 55,
+                  "value": 15
+                },
+                {
+                  "lv": 60,
+                  "value": 20
+                }
+              ],
+              "fallback": 20
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 50
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 75
+                },
+                {
+                  "lv": 55,
+                  "value": 75
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ボーカル上昇+20"
+      },
+      {
+        "unlock": "Lv40",
+        "effect": "ランダムなスキルカードを強化"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "過激め？チョイス",
+        "effect": "ロジックのスキルカード獲得時、ボーカルが900以上の場合、 ・ボーカル上昇+25 ・ランダムなスキルカードを強化 ・（プロデュース中2回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "all",
+            "predicates": [
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "card_plan_is",
+                  "value": "logic"
+                }
+              },
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "stat_gte",
+                  "stat": "vo",
+                  "value": 900
+                }
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vo",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 25
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ]
+        },
+        "rarity": "SSR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SSR/gkm_0211.webp",
+    "releaseDate": "2026/11/06"
+  },
+  {
+    "id": "gkm_0212",
+    "name": "こんなお写真もありますわ",
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "sense",
+    "maxLevel": 60,
+    "skills": [
+      {
+        "id": "initial_vo_0",
+        "name": "初期Vo",
+        "description": "初期ボーカル上昇+26(65)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "initial",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 26
+                },
+                {
+                  "lv": 40,
+                  "value": 52
+                },
+                {
+                  "lv": 45,
+                  "value": 55
+                },
+                {
+                  "lv": 50,
+                  "value": 59
+                },
+                {
+                  "lv": 55,
+                  "value": 62
+                },
+                {
+                  "lv": 60,
+                  "value": 65
+                }
+              ],
+              "fallback": 65
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ボーカルSPレッスン発生率+14%(21%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "vocal",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 14
+                },
+                {
+                  "lv": 40,
+                  "value": 14
+                },
+                {
+                  "lv": 45,
+                  "value": 14
+                },
+                {
+                  "lv": 50,
+                  "value": 21
+                },
+                {
+                  "lv": 55,
+                  "value": 21
+                },
+                {
+                  "lv": 60,
+                  "value": 21
+                }
+              ],
+              "fallback": 21
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を1.7%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を1.7%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 66.1
+                },
+                {
+                  "lv": 45,
+                  "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
+                },
+                {
+                  "lv": 55,
+                  "value": 91.5
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_3",
+        "name": "Vo上昇",
+        "description": "活動支給・差し入れ選択時、ボーカル上昇+9(12)",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 9
+                },
+                {
+                  "lv": 45,
+                  "value": 9
+                },
+                {
+                  "lv": 50,
+                  "value": 9
+                },
+                {
+                  "lv": 55,
+                  "value": 9
+                },
+                {
+                  "lv": 60,
+                  "value": 12
+                }
+              ],
+              "fallback": 12
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_4",
+        "name": "Vo上昇",
+        "description": "スキルカード（SSR）獲得時、ボーカル上昇+3(5)",
+        "unlockLevel": 20,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "card_rarity_is",
+              "value": "SSR"
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 3
+                },
+                {
+                  "lv": 45,
+                  "value": 3
+                },
+                {
+                  "lv": 50,
+                  "value": 3
+                },
+                {
+                  "lv": 55,
+                  "value": 5
+                },
+                {
+                  "lv": 60,
+                  "value": 5
+                }
+              ],
+              "fallback": 5
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を50%(100%)増加",
+        "unlockLevel": 30,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 50
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 75
+                },
+                {
+                  "lv": 55,
+                  "value": 75
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ボーカル上昇+20"
+      },
+      {
+        "unlock": "Lv40",
+        "effect": "ランダムなスキルカードを強化"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "仲良しアルバム",
+        "effect": "活動支給・差し入れ選択時、ボーカルが400以上の場合、 ・ボーカル上昇+20 ・体力回復3 ・（プロデュース中2回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "activity_supply_selected"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "stat_gte",
+              "stat": "vo",
+              "value": 400
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vo",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 20
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 2
+            }
+          ]
+        },
+        "rarity": "SSR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SSR/gkm_0212.webp",
+    "releaseDate": "2026/11/08"
+  },
+  {
+    "id": "gkm_0213",
+    "name": "どたばた、おそうじ",
+    "rarity": "SR",
+    "type": "visual",
+    "plan": "sense",
+    "maxLevel": 50,
+    "skills": [
+      {
+        "id": "lesson_bonus_0",
+        "name": "レッスンボーナス",
+        "description": "ビジュアルパラメータボーナス+1.9%(6.4%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_param_bonus",
+              "target": "visual",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 1.9
+                },
+                {
+                  "lv": 30,
+                  "value": 4.4
+                },
+                {
+                  "lv": 35,
+                  "value": 4.9
+                },
+                {
+                  "lv": 40,
+                  "value": 5.4
+                },
+                {
+                  "lv": 45,
+                  "value": 5.9
+                },
+                {
+                  "lv": 50,
+                  "value": 6.4
+                }
+              ],
+              "fallback": 6.4
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_1",
+        "name": "Vi上昇",
+        "description": "授業・営業終了時、ビジュアル上昇+3(5)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "class_end"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 3
+                },
+                {
+                  "lv": 30,
+                  "value": 3
+                },
+                {
+                  "lv": 35,
+                  "value": 5
+                },
+                {
+                  "lv": 40,
+                  "value": 5
+                },
+                {
+                  "lv": 45,
+                  "value": 5
+                },
+                {
+                  "lv": 50,
+                  "value": 5
+                }
+              ],
+              "fallback": 5
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を2%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を2%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 59.2
+                },
+                {
+                  "lv": 35,
+                  "value": 69.4
+                },
+                {
+                  "lv": 40,
+                  "value": 79.6
+                },
+                {
+                  "lv": 45,
+                  "value": 89.8
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_3",
+        "name": "Vi上昇",
+        "description": "ビジュアルSPレッスン終了時、ビジュアル上昇+7(13)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "visual"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 7
+                },
+                {
+                  "lv": 35,
+                  "value": 7
+                },
+                {
+                  "lv": 40,
+                  "value": 7
+                },
+                {
+                  "lv": 45,
+                  "value": 7
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                }
+              ],
+              "fallback": 13
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_4",
+        "name": "Vi上昇",
+        "description": "スキルカード獲得時、所持している集中効果のスキルカードが8枚以上の場合、ビジュアル上昇+8(22)（プロデュース中4回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "owned_effect_tag_cards_gte",
+              "tag": "concentration",
+              "value": 8
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 8
+                },
+                {
+                  "lv": 35,
+                  "value": 8
+                },
+                {
+                  "lv": 40,
+                  "value": 8
+                },
+                {
+                  "lv": 45,
+                  "value": 16
+                },
+                {
+                  "lv": 50,
+                  "value": 16
+                }
+              ],
+              "fallback": 16
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 30,
+                  "value": 50
+                },
+                {
+                  "lv": 35,
+                  "value": 50
+                },
+                {
+                  "lv": 40,
+                  "value": 75
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ビジュアル上昇+15"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "お掃除の成果",
+        "effect": "授業・営業終了時、ビジュアルが700以上の場合、 ・スキルカードを選択して強化 ・ビジュアル上昇+15 ・（プロデュース中1回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "class_end"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "stat_gte",
+              "stat": "vi",
+              "value": 700
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vi",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 15
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 1
+            }
+          ]
+        },
+        "rarity": "SR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SR/gkm_0213.webp",
+    "releaseDate": "2026/11/16"
+  },
+  {
+    "id": "gkm_0214",
+    "name": "お嬢様、失礼いたします",
+    "rarity": "SSR",
+    "type": "vocal",
+    "plan": "sense",
+    "maxLevel": 60,
+    "skills": [
+      {
+        "id": "initial_vo_0",
+        "name": "初期Vo",
+        "description": "初期ボーカル上昇+26(65)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "initial",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 26
+                },
+                {
+                  "lv": 40,
+                  "value": 52
+                },
+                {
+                  "lv": 45,
+                  "value": 55
+                },
+                {
+                  "lv": 50,
+                  "value": 59
+                },
+                {
+                  "lv": 55,
+                  "value": 62
+                },
+                {
+                  "lv": 60,
+                  "value": 65
+                }
+              ],
+              "fallback": 65
+            }
+          }
+        }
+      },
+      {
+        "id": "sp_rate_1",
+        "name": "SP発生率アップ",
+        "description": "ボーカルSPレッスン発生率+14%(28%)",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_sp_rate",
+              "target": "vocal",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 1,
+                  "value": 14
+                },
+                {
+                  "lv": 40,
+                  "value": 21
+                },
+                {
+                  "lv": 45,
+                  "value": 21
+                },
+                {
+                  "lv": 50,
+                  "value": 28
+                },
+                {
+                  "lv": 55,
+                  "value": 28
+                },
+                {
+                  "lv": 60,
+                  "value": 28
+                }
+              ],
+              "fallback": 28
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "このサポートカードのスキルカードサポート発生率を1.7%増加",
+        "description": "このサポートカードのスキルカードサポート発生率を1.7%(100%)増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 66.1
+                },
+                {
+                  "lv": 45,
+                  "value": 74.6
+                },
+                {
+                  "lv": 50,
+                  "value": 83.1
+                },
+                {
+                  "lv": 55,
+                  "value": 91.5
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_3",
+        "name": "Vo上昇",
+        "description": "ボーカルSPレッスン終了時、ボーカル上昇+9(17)",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "sp",
+            "lessonParam": "vocal"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 13
+                },
+                {
+                  "lv": 45,
+                  "value": 13
+                },
+                {
+                  "lv": 50,
+                  "value": 13
+                },
+                {
+                  "lv": 55,
+                  "value": 17
+                },
+                {
+                  "lv": 60,
+                  "value": 17
+                }
+              ],
+              "fallback": 17
+            }
+          }
+        }
+      },
+      {
+        "id": "vo_bonus_4",
+        "name": "Vo上昇",
+        "description": "スキルカード獲得時、所持している集中効果のスキルカードが8枚以上の場合、ボーカル上昇+11(22)（プロデュース中4回）",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "condition",
+            "condition": {
+              "type": "owned_effect_tag_cards_gte",
+              "tag": "concentration",
+              "value": 8
+            }
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vo",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 4
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 16
+                },
+                {
+                  "lv": 45,
+                  "value": 16
+                },
+                {
+                  "lv": 50,
+                  "value": 16
+                },
+                {
+                  "lv": 55,
+                  "value": 16
+                },
+                {
+                  "lv": 60,
+                  "value": 22
+                }
+              ],
+              "fallback": 22
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "このサポートカードのイベントによるパラメータ上昇を+50%増加",
+        "description": "このサポートカードのイベントによるパラメータ上昇を+50%(100%)増加",
+        "unlockLevel": 25,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 40,
+                  "value": 50
+                },
+                {
+                  "lv": 45,
+                  "value": 75
+                },
+                {
+                  "lv": 50,
+                  "value": 75
+                },
+                {
+                  "lv": 55,
+                  "value": 75
+                },
+                {
+                  "lv": 60,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "プロデュースアイテム"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "ボーカル上昇+20"
+      },
+      {
+        "unlock": "Lv40",
+        "effect": "スキルカードを選択して強化"
+      }
+    ],
+    "supportEventRewards": [
+      {
+        "kind": "p_item",
+        "name": "お嬢様おでかけセット",
+        "effect": "集中効果のスキルカード獲得時、ボーカルが900以上の場合、 ・Pポイント+20 ・ボーカル上昇+20 ・（プロデュース中3回）",
+        "parameterAbility": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "skill_card_gained"
+          },
+          "predicate": {
+            "type": "all",
+            "predicates": [
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "effect_tag_is",
+                  "value": "concentration"
+                }
+              },
+              {
+                "type": "condition",
+                "condition": {
+                  "type": "stat_gte",
+                  "stat": "vo",
+                  "value": 900
+                }
+              }
+            ]
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "stat": "vo",
+              "timing": "activation",
+              "amount": {
+                "kind": "literal",
+                "value": 20
+              }
+            }
+          ],
+          "limits": [
+            {
+              "scope": "produce",
+              "max": 3
+            }
+          ]
+        },
+        "rarity": "SSR"
+      }
+    ],
+    "imageUrl": "local:Support/converted/SSR/gkm_0214.webp",
+    "releaseDate": "2026/11/16"
+  },
+  {
+    "id": "gkm_0215",
+    "name": "お仕え前の準備運動",
+    "rarity": "R",
+    "type": "visual",
+    "plan": "free",
+    "maxLevel": 40,
+    "skills": [
+      {
+        "id": "lesson_bonus_0",
+        "name": "Viパラメータボーナス",
+        "description": "ビジュアルパラメータボーナス+4.3%",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_param_bonus",
+              "target": "visual",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 2.8
+                },
+                {
+                  "lv": 25,
+                  "value": 3.2
+                },
+                {
+                  "lv": 30,
+                  "value": 3.6
+                },
+                {
+                  "lv": 35,
+                  "value": 4
+                },
+                {
+                  "lv": 40,
+                  "value": 4.3
+                }
+              ],
+              "fallback": 4.3
+            }
+          }
+        }
+      },
+      {
+        "id": "other_1",
+        "name": "初期Pポイント",
+        "description": "初期Pポイント+20",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_p_point",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 20
+                },
+                {
+                  "lv": 25,
+                  "value": 20
+                },
+                {
+                  "lv": 30,
+                  "value": 20
+                },
+                {
+                  "lv": 35,
+                  "value": 20
+                },
+                {
+                  "lv": 40,
+                  "value": 20
+                }
+              ],
+              "fallback": 20
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "スキルカードサポート発生率",
+        "description": "このサポートカードのスキルカードサポート発生率を100%増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 48.7
+                },
+                {
+                  "lv": 25,
+                  "value": 61.5
+                },
+                {
+                  "lv": 30,
+                  "value": 74.4
+                },
+                {
+                  "lv": 35,
+                  "value": 87.2
+                },
+                {
+                  "lv": 40,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_3",
+        "name": "Viレッスン終了時",
+        "description": "ビジュアルレッスン終了時、ビジュアル上昇+3",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "any",
+            "lessonParam": "visual"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 1
+                },
+                {
+                  "lv": 25,
+                  "value": 1
+                },
+                {
+                  "lv": 30,
+                  "value": 1
+                },
+                {
+                  "lv": 35,
+                  "value": 1
+                },
+                {
+                  "lv": 40,
+                  "value": 3
+                }
+              ],
+              "fallback": 3
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_4",
+        "name": "相談選択時Vi上昇",
+        "description": "相談選択時、ビジュアル上昇+9",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "consultation_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 5
+                },
+                {
+                  "lv": 25,
+                  "value": 5
+                },
+                {
+                  "lv": 30,
+                  "value": 9
+                },
+                {
+                  "lv": 35,
+                  "value": 9
+                },
+                {
+                  "lv": 40,
+                  "value": 9
+                }
+              ],
+              "fallback": 9
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "サポートイベント上昇量",
+        "description": "このサポートカードのイベントによるパラメータ上昇を100%増加",
+        "unlockLevel": 21,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 25,
+                  "value": 50
+                },
+                {
+                  "lv": 30,
+                  "value": 50
+                },
+                {
+                  "lv": 35,
+                  "value": 75
+                },
+                {
+                  "lv": 40,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "ビジュアル上昇+10"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "Pポイント+10"
+      }
+    ],
+    "supportEventRewards": [],
+    "imageUrl": "local:Support/converted/R/gkm_0215.webp"
   }
 ]

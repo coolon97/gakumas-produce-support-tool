@@ -6,6 +6,19 @@ import type { ReleaseNote } from '@/data/release-notes'
 import { getIdolImageUrl } from '@/lib/idol-images'
 import { resolveLocalAssetUrl } from '@/lib/local-asset-urls'
 
+function ReleaseCardImage({ src, className }: { src?: string; className: string }) {
+  return src ? (
+    <img src={src} alt="" className={className} />
+  ) : (
+    <span
+      aria-hidden="true"
+      className={`${className} flex items-center justify-center bg-slate-100 text-center text-[9px] text-slate-500`}
+    >
+      画像準備中
+    </span>
+  )
+}
+
 export function ReleaseNotesDialog({
   releases,
   history,
@@ -21,8 +34,7 @@ export function ReleaseNotesDialog({
   useEffect(() => {
     const dialog = dialogRef.current
     if (!dialog) return
-    const previousFocus =
-      document.activeElement instanceof HTMLElement ? document.activeElement : null
+    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
     dialog.showModal()
     dialog.focus()
     return () => {
@@ -96,15 +108,12 @@ export function ReleaseNotesDialog({
                   </h4>
                   <ul className="mt-3 grid gap-3 sm:grid-cols-2">
                     {release.idolVersionIds.map((id) => {
-                      const idol = IDOLS.flatMap((entry) => entry.versions).find(
-                        (entry) => entry.id === id,
-                      )
+                      const idol = IDOLS.flatMap((entry) => entry.versions).find((entry) => entry.id === id)
                       if (!idol) return null
                       return (
                         <li key={id} className="flex items-center gap-3">
-                          <img
+                          <ReleaseCardImage
                             src={getIdolImageUrl(id)}
-                            alt=""
                             className="h-[72px] w-[54px] shrink-0 rounded object-cover"
                           />
                           <div className="min-w-0">
@@ -138,9 +147,8 @@ export function ReleaseNotesDialog({
                       if (!card) return null
                       return (
                         <li key={id} className="flex items-center gap-3">
-                          <img
+                          <ReleaseCardImage
                             src={resolveLocalAssetUrl(card.imageUrl)}
-                            alt=""
                             className="h-[54px] w-24 shrink-0 rounded object-cover"
                           />
                           <div className="min-w-0">

@@ -191,6 +191,7 @@ export function inferRewardSkillCard(
     id,
     name: reward.name,
     source: 'support',
+    ...(catalogCard ? { plan: catalogCard.plan } : {}),
     effectTags:
       selection && plan
         ? getHifConsultationSkillTags(plan, selection.skillKind, selection.energy, selection.preservation)

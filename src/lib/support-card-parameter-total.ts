@@ -171,6 +171,8 @@ function conditionLabel(condition: AbilityCondition): string {
       return condition.value === 'active' ? 'アクティブ' : 'メンタル'
     case 'card_rarity_is':
       return condition.value
+    case 'card_plan_is':
+      return `${{ sense: 'センス', logic: 'ロジック', anomaly: 'アノマリー', free: 'フリー' }[condition.value]}のカード`
     case 'card_name_contains':
       return `名前に「${condition.value}」を含むカード`
     case 'lesson_turn_only':

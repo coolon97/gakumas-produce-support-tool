@@ -66,7 +66,15 @@ export interface AbilityActivation {
 export type AbilityCondition =
   | {
       type: 'owned_effect_tag_cards_gte'
-      tag: 'goodImpression' | 'goodCondition' | 'preservation' | 'concentration' | 'fullPower' | 'aggressive' | 'motivation' | 'energy'
+      tag:
+        | 'goodImpression'
+        | 'goodCondition'
+        | 'preservation'
+        | 'concentration'
+        | 'fullPower'
+        | 'aggressive'
+        | 'motivation'
+        | 'energy'
       value: number
     }
   | { type: 'owned_skill_cards_gte'; value: number }
@@ -75,10 +83,19 @@ export type AbilityCondition =
   | { type: 'stamina_gte_ratio'; value: number }
   | {
       type: 'effect_tag_is'
-      value: 'energy' | 'motivation' | 'goodImpression' | 'goodCondition' | 'preservation' | 'concentration' | 'fullPower' | 'aggressive'
+      value:
+        | 'energy'
+        | 'motivation'
+        | 'goodImpression'
+        | 'goodCondition'
+        | 'preservation'
+        | 'concentration'
+        | 'fullPower'
+        | 'aggressive'
     }
   | { type: 'card_category_is'; value: 'active' | 'mental' }
   | { type: 'card_rarity_is'; value: 'SSR' | 'SR' | 'R' }
+  | { type: 'card_plan_is'; value: 'sense' | 'logic' | 'anomaly' | 'free' }
   | { type: 'card_name_contains'; value: string }
   | { type: 'lesson_turn_only' }
 

@@ -12,6 +12,9 @@ import { normalizeHifSchedule } from '../src/lib/hif-schedule.ts'
 import { compareIdolEntries, normalizeIdolSortKey } from '../src/lib/idol-sort.ts'
 import cardsData from '../data/cards.json'
 import type { SupportCard } from '../src/types/card.ts'
+import pendingImagesData from '../data/pending-card-images.json'
+
+const pendingImages: { idols: string[]; supportCards: string[] } = pendingImagesData
 
 test('P-idol IDs and portrait filenames use contiguous character-rarity-plan sequences', () => {
   const allIds = new Set<string>()
@@ -26,9 +29,10 @@ test('P-idol IDs and portrait filenames use contiguous character-rarity-plan seq
       allIds.add(version.id)
       sequences.set(prefix, [...(sequences.get(prefix) ?? []), Number(suffix)])
       assert.ok(
-        existsSync(
-          new URL(`../assets/game/PIdol/converted/${version.rarity}/${version.id}.webp`, import.meta.url),
-        ),
+        pendingImages.idols.includes(version.id) ||
+          existsSync(
+            new URL(`../assets/game/PIdol/converted/${version.rarity}/${version.id}.webp`, import.meta.url),
+          ),
         version.id,
       )
     }
@@ -43,8 +47,9 @@ test('P-idol IDs and portrait filenames use contiguous character-rarity-plan seq
       .filter((file) => file.endsWith('.webp'))
       .map((file) => file.slice(0, -5)),
   )
-  assert.equal(portraitIds.length, allIds.size)
-  assert.deepEqual(new Set(portraitIds), allIds)
+  const withImages = new Set([...allIds].filter((id) => !pendingImages.idols.includes(id)))
+  assert.equal(portraitIds.length, withImages.size)
+  assert.deepEqual(new Set(portraitIds), withImages)
 })
 
 test('idol sorting prioritizes each selected field and places undated costumes last', () => {
@@ -103,8 +108,8 @@ test('secondary idol sort priorities override newer releases and retain date ord
   assert.deepEqual(sorted('rarity'), ['logic-newest', 'ssr-new', 'ssr-old', 'ssr-other-idol', 'sr-new'])
 })
 
-test('all 13 characters and current costumes have unique IDs, verified numbers, talent curves and local illustrations when available', () => {
-  assert.equal(IDOLS.length, 13)
+test('all 14 characters and current costumes have unique IDs, verified numbers, talent curves and local illustrations when available', () => {
+  assert.equal(IDOLS.length, 14)
   const versions = IDOLS.flatMap((i) => i.versions)
   assert.ok(versions.length >= 153)
   assert.equal(new Set(versions.map((v) => v.id)).size, versions.length)
