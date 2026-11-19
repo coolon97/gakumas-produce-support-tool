@@ -101,15 +101,74 @@ test('new P-item rewards retain stat thresholds, effect tags and produce limits'
   ])
 })
 
-test('all six new images are explicitly pending and do not replace existing user assets', () => {
-  assert.deepEqual(pending.idols, ['kanae-r-sense1', 'kanae-sr-sense1', 'kanae-ssr-sense1'])
-  assert.deepEqual(pending.supportCards, ['gkm_0212', 'gkm_0213', 'gkm_0214'])
-  for (const id of pending.idols) {
+test('all seven new user images are bundled and no images remain pending', () => {
+  assert.deepEqual(pending, { idols: [], supportCards: [] })
+  for (const id of ['kanae-r-sense1', 'kanae-sr-sense1', 'kanae-ssr-sense1']) {
     const version = findIdolVersion('kanae', id)!
-    assert.ok(!existsSync(`assets/game/PIdol/converted/${version.rarity}/${id}.webp`))
+    assert.ok(existsSync(`assets/game/PIdol/converted/${version.rarity}/${id}.webp`))
   }
-  for (const id of pending.supportCards) {
+  for (const id of ['gkm_0212', 'gkm_0213', 'gkm_0214', 'gkm_0215']) {
     const card = cards.find((c) => c.id === id)!
-    assert.ok(!existsSync('assets/game/' + card.imageUrl!.slice(6)))
+    assert.ok(existsSync('assets/game/' + card.imageUrl!.slice(6)))
   }
+})
+
+test('Otsukae support exactly matches all six confirmed Lv40 screenshot values and event rewards', () => {
+  const card = cards.find((c) => c.id === 'gkm_0215')!
+  assert.equal(card.name, 'お仕え前の準備運動')
+  assert.equal(card.rarity, 'R')
+  assert.equal(card.type, 'visual')
+  assert.equal(card.plan, 'free')
+  assert.equal(card.maxLevel, 40)
+  assert.equal(card.releaseDate, undefined)
+  assert.deepEqual(
+    card.skills.map((s) => getPrimaryAbilityValue(s.ability, 40)),
+    [4.3, 20, 100, 3, 9, 100],
+  )
+  assert.deepEqual(card.skills[2].ability.operations[0], {
+    op: 'add_support_rate',
+    supportKind: 'skill_card',
+    amount: { kind: 'curve', curveId: 'primary' },
+  })
+  assert.deepEqual(card.skills[3].ability.activation, {
+    event: 'lesson_end',
+    lessonKind: 'any',
+    lessonParam: 'visual',
+  })
+  assert.deepEqual(card.skills[4].ability.activation, { event: 'consultation_selected' })
+  assert.deepEqual(card.supportEvents, [
+    { unlock: '初期', effect: 'ビジュアル上昇+10' },
+    { unlock: 'Lv20', effect: 'Pポイント+10' },
+  ])
+  assert.deepEqual(card.supportEventRewards, [])
+})
+
+test('Otsukae lower-level provisional curves use R progression and keep event bonus locked at Lv20', () => {
+  const card = cards.find((c) => c.id === 'gkm_0215')!
+  const levels = [20, 25, 30, 35, 40]
+  assert.deepEqual(
+    levels.map((lv) => getPrimaryAbilityValue(card.skills[0].ability, lv)),
+    [2.8, 3.2, 3.6, 4, 4.3],
+  )
+  assert.deepEqual(
+    levels.map((lv) => getPrimaryAbilityValue(card.skills[1].ability, lv)),
+    [20, 20, 20, 20, 20],
+  )
+  assert.deepEqual(
+    levels.map((lv) => getPrimaryAbilityValue(card.skills[2].ability, lv)),
+    [48.7, 61.5, 74.4, 87.2, 100],
+  )
+  assert.deepEqual(
+    levels.map((lv) => getPrimaryAbilityValue(card.skills[3].ability, lv)),
+    [1, 1, 1, 1, 3],
+  )
+  assert.deepEqual(
+    levels.map((lv) => getPrimaryAbilityValue(card.skills[4].ability, lv)),
+    [5, 5, 9, 9, 9],
+  )
+  assert.equal(card.skills[5].unlockLevel, 21)
+  assert.deepEqual(
+    [25, 30, 35, 40].map((lv) => getPrimaryAbilityValue(card.skills[5].ability, lv)),
+    [50, 50, 75, 100],
+  )
 })

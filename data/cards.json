@@ -77738,5 +77738,321 @@
     ],
     "imageUrl": "local:Support/converted/SSR/gkm_0214.webp",
     "releaseDate": "2026/11/16"
+  },
+  {
+    "id": "gkm_0215",
+    "name": "お仕え前の準備運動",
+    "rarity": "R",
+    "type": "visual",
+    "plan": "free",
+    "maxLevel": 40,
+    "skills": [
+      {
+        "id": "lesson_bonus_0",
+        "name": "Viパラメータボーナス",
+        "description": "ビジュアルパラメータボーナス+4.3%",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_param_bonus",
+              "target": "visual",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 2.8
+                },
+                {
+                  "lv": 25,
+                  "value": 3.2
+                },
+                {
+                  "lv": 30,
+                  "value": 3.6
+                },
+                {
+                  "lv": 35,
+                  "value": 4
+                },
+                {
+                  "lv": 40,
+                  "value": 4.3
+                }
+              ],
+              "fallback": 4.3
+            }
+          }
+        }
+      },
+      {
+        "id": "other_1",
+        "name": "初期Pポイント",
+        "description": "初期Pポイント+20",
+        "unlockLevel": 0,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_p_point",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 20
+                },
+                {
+                  "lv": 25,
+                  "value": 20
+                },
+                {
+                  "lv": 30,
+                  "value": 20
+                },
+                {
+                  "lv": 35,
+                  "value": 20
+                },
+                {
+                  "lv": 40,
+                  "value": 20
+                }
+              ],
+              "fallback": 20
+            }
+          }
+        }
+      },
+      {
+        "id": "other_2",
+        "name": "スキルカードサポート発生率",
+        "description": "このサポートカードのスキルカードサポート発生率を100%増加",
+        "unlockLevel": 2,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "add_support_rate",
+              "supportKind": "skill_card",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 48.7
+                },
+                {
+                  "lv": 25,
+                  "value": 61.5
+                },
+                {
+                  "lv": 30,
+                  "value": 74.4
+                },
+                {
+                  "lv": 35,
+                  "value": 87.2
+                },
+                {
+                  "lv": 40,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_3",
+        "name": "Viレッスン終了時",
+        "description": "ビジュアルレッスン終了時、ビジュアル上昇+3",
+        "unlockLevel": 5,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "lesson_end",
+            "lessonKind": "any",
+            "lessonParam": "visual"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 1
+                },
+                {
+                  "lv": 25,
+                  "value": 1
+                },
+                {
+                  "lv": 30,
+                  "value": 1
+                },
+                {
+                  "lv": 35,
+                  "value": 1
+                },
+                {
+                  "lv": 40,
+                  "value": 3
+                }
+              ],
+              "fallback": 3
+            }
+          }
+        }
+      },
+      {
+        "id": "vi_bonus_4",
+        "name": "相談選択時Vi上昇",
+        "description": "相談選択時、ビジュアル上昇+9",
+        "unlockLevel": 10,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "consultation_selected"
+          },
+          "operations": [
+            {
+              "op": "add_stat",
+              "timing": "activation",
+              "stat": "vi",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 20,
+                  "value": 5
+                },
+                {
+                  "lv": 25,
+                  "value": 5
+                },
+                {
+                  "lv": 30,
+                  "value": 9
+                },
+                {
+                  "lv": 35,
+                  "value": 9
+                },
+                {
+                  "lv": 40,
+                  "value": 9
+                }
+              ],
+              "fallback": 9
+            }
+          }
+        }
+      },
+      {
+        "id": "other_5",
+        "name": "サポートイベント上昇量",
+        "description": "このサポートカードのイベントによるパラメータ上昇を100%増加",
+        "unlockLevel": 21,
+        "ability": {
+          "schemaVersion": 2,
+          "activation": {
+            "event": "static"
+          },
+          "operations": [
+            {
+              "op": "modify_support_event_reward",
+              "rewardKind": "stat_gain",
+              "operation": "add_percent",
+              "amount": {
+                "kind": "curve",
+                "curveId": "primary"
+              }
+            }
+          ],
+          "curves": {
+            "primary": {
+              "points": [
+                {
+                  "lv": 25,
+                  "value": 50
+                },
+                {
+                  "lv": 30,
+                  "value": 50
+                },
+                {
+                  "lv": 35,
+                  "value": 75
+                },
+                {
+                  "lv": 40,
+                  "value": 100
+                }
+              ],
+              "fallback": 100
+            }
+          }
+        }
+      }
+    ],
+    "supportEvents": [
+      {
+        "unlock": "初期",
+        "effect": "ビジュアル上昇+10"
+      },
+      {
+        "unlock": "Lv20",
+        "effect": "Pポイント+10"
+      }
+    ],
+    "supportEventRewards": [],
+    "imageUrl": "local:Support/converted/R/gkm_0215.webp"
   }
 ]

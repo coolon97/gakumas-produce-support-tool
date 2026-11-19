@@ -23,8 +23,8 @@ test('November Wiki delta adds five costumes and five supports with bundled user
     'misuzu-ssr-logic4',
   ]
   const addedSupports = ['gkm_0207', 'gkm_0208', 'gkm_0209', 'gkm_0210', 'gkm_0211']
-  assert.ok(addedIdols.every((id) => !pendingImages.idols.includes(id)))
-  assert.ok(addedSupports.every((id) => !pendingImages.supportCards.includes(id)))
+  assert.ok(addedIdols.every((id) => !new Set<string>(pendingImages.idols).has(id)))
+  assert.ok(addedSupports.every((id) => !new Set<string>(pendingImages.supportCards).has(id)))
   for (const id of addedIdols) {
     const version = IDOLS.flatMap((i) => i.versions).find((v) => v.id === id)!
     assert.ok(version)

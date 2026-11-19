@@ -71,7 +71,7 @@ test('release notes identify added cards and either bundled or explicitly pendin
   assert.equal(RELEASE_NOTES[0].version, manifest.version)
   assert.equal(new Set(RELEASE_NOTES.map((release) => release.version)).size, RELEASE_NOTES.length)
   assert.equal(RELEASE_NOTES[0].idolVersionIds.length, 3)
-  assert.equal(RELEASE_NOTES[0].supportCardIds.length, 3)
+  assert.equal(RELEASE_NOTES[0].supportCardIds.length, 4)
   for (const release of RELEASE_NOTES) {
     for (const id of release.idolVersionIds) {
       const idol = idols.flatMap((entry) => entry.versions).find((entry) => entry.id === id)
