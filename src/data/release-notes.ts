@@ -15,9 +15,7 @@ export const RELEASE_NOTES: readonly ReleaseNote[] = [
     title: '氷渡香名江と新規サポートカードを追加',
     idolVersionIds: ['kanae-r-sense1', 'kanae-sr-sense1', 'kanae-ssr-sense1'],
     supportCardIds: ['gkm_0212', 'gkm_0213', 'gkm_0214', 'gkm_0215'],
-    changes: [
-      'お仕え前の準備運動はLv40のゲーム画面から登録し、下位レベルの数値と解放条件は類似Rカードから暫定補完しています。',
-    ],
+    changes: ['お仕え前の準備運動の下位レベルの数値と解放条件は、類似Rカードから暫定補完しています。'],
   },
   {
     version: '0.1.2',
